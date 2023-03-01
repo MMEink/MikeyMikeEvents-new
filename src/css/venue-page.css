@@ -1,0 +1,145 @@
+.logoCarousel{
+    display: grid;
+    margin: 3rem auto;
+    max-width: 1200px;
+    grid-template-columns: repeat(5, 19%);
+    grid-gap: 1rem;
+    justify-items: center;
+    justify-content: center;
+  }
+  
+  .logoCarousel a div{
+    padding: 2rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logoCarousel a div img{
+    align-self: center;
+    justify-self: center;
+    width: 150px;
+    height: auto;
+  }
+
+
+  @media all and (max-width: 1200px)  {
+    .logoCarousel{
+        grid-template-columns: repeat(4, 19%);
+        grid-gap: 1rem;
+
+      }
+  }
+
+  @media all and (max-width: 1000px)  {
+    .logoCarousel{
+        grid-template-columns: repeat(3, 20%);
+        grid-gap: 4rem;
+        
+      }
+  }
+
+  @media all and (max-width: 750px)  {
+    .logoCarousel{
+        grid-template-columns: repeat(2, 30%);
+        
+      }
+  }
+
+  @media all and (max-width: 500px)  {
+    .logoCarousel{
+        grid-template-columns: 50%
+        
+      }
+  }
+
+.venue:hover{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
+    
+  }
+
+  .venue:hover span:nth-child(1) {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 4px;
+	background: linear-gradient(to right, #f4f3f6, #007ebd);
+	animation: animate1 2s linear infinite;
+}
+
+
+
+@keyframes animate1 {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+.venue:hover span:nth-child(2) {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 4px;
+	background: linear-gradient(to bottom, #f4f3f6, #007ebd);
+	animation: animate2 2s linear infinite;
+	animation-delay: 1s;
+}
+
+@keyframes animate2 {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(100%);
+	}
+}
+
+.venue:hover span:nth-child(3) {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 4px;
+	background: linear-gradient(to left, #f4f3f6, #007ebd);
+	animation: animate3 2s linear infinite;
+}
+
+@keyframes animate3 {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+.venue:hover span:nth-child(4) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 4px;
+	background: linear-gradient(to top, #f4f3f6, #007ebd);
+	animation: animate4 2s linear infinite;
+	animation-delay: 1s;
+}
+
+@keyframes animate4 {
+	0% {
+		transform: translateY(100%);
+	}
+	100% {
+		transform: translateY(-100%);
+	}
+}

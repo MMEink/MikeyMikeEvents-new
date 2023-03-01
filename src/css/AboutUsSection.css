@@ -1,0 +1,136 @@
+.flip-section{
+	width: 90%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1rem;
+	justify-content: center;
+}
+
+.flip-container:hover .flipper{
+	transform: rotateY(180deg);
+	transform-origin: center;
+}
+
+.flip-container, .flip-container img, .front, .back{
+	width: 350px;
+	border-radius: 30px;
+	height: 350px;
+}
+
+@media all and (max-width:1500px) {
+
+	.flip-container, .flip-container img, .front, .back{
+		width: 300px;
+		height: 300px;
+	}
+}
+
+@media all and (max-width:1300px) {
+
+	.flip-container, .flip-container img, .front, .back{
+		width: 280px;
+		height: 280px;
+	}
+}
+
+@media all and (max-width:1200px) {
+
+	.flip-container, .flip-container img, .front, .back{
+		width: 250px;
+		height: 250px;
+	}
+}
+
+@media all and (max-width:1100px) {
+
+	.flip-container, .flip-container img, .front, .back{
+		width: 230px;
+		height: 230px;
+	}
+}
+
+@media all and (max-width:1000px) {
+	.flip-container, .flip-container img, .front, .back{
+		width: 500px;
+		height: 500px;
+	}
+	.flip-section{
+		grid-template-columns: 100%;
+		margin: auto;
+		justify-items: center;
+	}
+}
+
+@media all and (max-width:600px) {
+	.flip-container, .flip-container img, .front, .back{
+		width: 400px;
+		height: 400px;
+	}
+}
+.back{
+	padding: 2rem;
+}
+
+.flipper {
+	transition: 1.5s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.front,
+.back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+}
+
+.front h3{
+	position: absolute;
+    top: 40%;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	z-index: 3;
+	width: 100%;
+}
+
+.front img{
+	filter: brightness(0.5);
+}
+
+.back {
+	transform: rotateY(180deg);
+	background: #007ebd;
+	color: #fff;
+}
+
+.back a{
+	color: #fff;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #fff;
+}
+
+.back p{
+	font-weight: 600;
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+}
+
+.aboutusSection h2{
+	text-align: center;
+	margin: 2rem auto;
+	font-family: 'Apple Chancery', sans-serif;
+	font-size: 3rem;
+	text-transform: capitalize;
+	color:#007ebd;
+                                                
+}
+
+.aboutusSection{
+	justify-content: center;
+}
