@@ -1,7 +1,8 @@
 import { Row } from "react-bootstrap";
 import { useState } from "react";
-import SwiperGallerySection from "../SwiperGallerySection";
+import SwiperWizVideos from "../SwiperWizVideos";
 import VerticalLayout from "../VerticalLayout";
+import GallerySection from "../GallerySection";
 import FooterView from "../FooterView";
 import "../css/services-aboutuspage.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -10,6 +11,7 @@ export default function LightingView() {
   const [data, setData] = useState(
     services.filter((e) => e.name === "Lighting")[0]
   );
+  console.log(data.gallery);
   return (
     <HelmetProvider>
       <Row>
@@ -22,6 +24,13 @@ export default function LightingView() {
         </Helmet>
         <section className="eventHeader">Lighting</section>
         <VerticalLayout data={data} />
+        <SwiperWizVideos data={data.subheader} />
+        <section
+          style={{ width: "80%", maxWidth: "1200px", margin: "2rem auto" }}
+        >
+          <GallerySection gallery={data.gallery} />
+        </section>
+
         <FooterView />
       </Row>
     </HelmetProvider>

@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { VerticalLayOutContainer } from "./styled";
 
 export default function VerticalLayout({ data }) {
-  console.log(data);
   return (
     <VerticalLayOutContainer>
       <img src={require(`${data.main_img}`)} alt={data.article_title} />

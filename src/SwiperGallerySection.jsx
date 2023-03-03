@@ -78,7 +78,9 @@ export default function SwiperGallerySection({ data }) {
         ))}
       </Swiper>
 
-      {selected !== "catering" && <GallerySection gallery={selected_gallery} />}
+      {selected !== "catering" && selected_gallery && (
+        <GallerySection gallery={selected_gallery} />
+      )}
     </Row>
   );
 }

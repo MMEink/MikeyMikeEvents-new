@@ -9,6 +9,11 @@
   --bs-gutter-x:0;
 }
 
+
+.marginbt{
+  margin: 0 auto 4rem !important;
+}
+
 .btnfocus{
   background-color: #007ebd;
   border-color: #007ebd !important;
@@ -162,7 +167,7 @@ color: #007ebd;
 .swipperGallery-container{
   width: 80%;
   margin: auto;
-  max-width: 1158px;
+  max-width: 1200px;
 }
 
 .swipperGallery-container p{
@@ -249,9 +254,13 @@ form .btn{
   font-family: 'Cabin', sans-serif;
 }
 
+.swiper{
+z-index: -1;
+}
+
 .swiper-wrapper{
   padding-bottom: 5rem;
-  top:3px
+  top:24px
 }
 
 .slogan{
@@ -683,6 +692,12 @@ form h3, .contactInfo h3{
   --bs-modal-width: 100%;
 }
 
+.imageWizVideos,.swiper-video{
+position: relative;
+top: 24px;
+background-color: #f5f5f5;
+}
+
 .modal-content{
 background-color: transparent;
 border: none;
@@ -720,7 +735,11 @@ right: 2rem;
 form .btn{
   margin-bottom: 1rem;
 }
-
+@media all and (max-width:1450px) {
+  .swiper-video{
+    height: 570px !important;
+  }
+}
 @media all and (max-width:1400px) {
   .header-contents{
     margin: 10rem auto;
@@ -744,6 +763,12 @@ form .btn{
   font-size: 1.8rem;
 }
 }
+
+@media all and (max-width:1250px) {
+  .swiper-video{
+    height: 500px !important;
+  }
+}
 @media all and (max-width: 1200px)  {
   .slogan h2{
   font-size: 110px;
@@ -752,6 +777,7 @@ form .btn{
 }
 
 @media all and (max-width: 1100px)  {
+
   .slogan h2{
   font-size: 100px;
   width: 1000px
@@ -759,6 +785,9 @@ form .btn{
 }
 
 @media all and (max-width: 1000px)  {
+  .swiper-video{
+    height: 390px !important;
+  }
   .slogan h2{
   font-size: 90px;
   width: 900px;
@@ -772,7 +801,16 @@ form .btn{
   max-width: 700px
 }
 }
+
+@media all and (max-width: 750px)  {
+  .swiper-video{
+    height: 300px !important;
+  }
+}
 @media all and (max-width: 600px)  {
+  .swiper-video{
+    height: 230px !important;
+  }
   .searchSection{
     margin: 1rem 0 1rem 1rem;
   }
@@ -1006,6 +1044,13 @@ form .btn{
       margin-top: 1rem;
     }
     
+  }
+
+  @media all and (max-width: 450px)  {
+    .swiper-video{
+      height: 190px !important;
+    }
+
   }
   @media all and (max-width:800px) {
     .header-contents{

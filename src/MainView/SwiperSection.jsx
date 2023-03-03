@@ -16,6 +16,7 @@ export default function SwiperSection() {
       effect="fade"
       autoplay={true}
       spaceBetween={50}
+      speed={4000}
       slidesPerView={1}
       centeredSlides
       style={{ marginTop: "1rem", width: "100%" }}

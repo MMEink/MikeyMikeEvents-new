@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const DropdownContainer = styled.div`
   border-top: 3px solid #007ebd;
   background-color: white;
+  text-transform:uppercase;
+  font-size:0.8rem;
   padding: 2rem;
   z-index: 9999;
   position: relative;
@@ -18,6 +20,7 @@ export const DropdownContainer = styled.div`
   ul li {
     margin-bottom: 1.5rem;
     font-weight: 500;
+    color: #323232;
   }
 
   li:hover{
@@ -299,6 +302,64 @@ export const WaveButton = styled.a`
     }
   }
 `;
+export const SmallerEffectButton = styled.a`
+  width: 15%;
+  margin-top: 2rem;
+  white-space: nowrap;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.3s;
+  z-index: 1;
+  padding: 10px 20px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #007ebd;
+    border-radius: 50px;
+    z-index: -2;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #002d44;
+    transition: all 0.3s;
+    border-radius: 50px;
+    z-index: -1;
+  }
+  &:hover {
+    color: #fff;
+    &:before {
+      width: 100%;
+    }
+  }
+
+  @media all and (max-width: 1200px) {
+    padding: 13px 30px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+
+  @media all and (max-width: 600px) {
+    padding: 13px 25px;
+  }
+`;
 
 export const EffectButton = styled.a`
   white-space: nowrap;
@@ -578,13 +639,16 @@ export const SwiperGalleryNav = styled.ul`
   justify-content: flex-start;
   flex-wrap: nowrap;
   position: relative;
+  margin-bottom: 0px;
+  border-bottom: 4px solid rgb(0, 126, 189);
   top: 1.5rem;
   font-size: 12px;
   li {
     list-style: none;
-    padding: 0.7rem 1rem 1rem;
+    padding: 0.7rem 1rem;
     border: 1px solid #007ebd;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background-color: #f5f5f5;
     border-bottom: none;
     margin-right: 4px;
@@ -738,7 +802,7 @@ export const VerticalLayOutContainer = styled.section`
   display: flex;
   flex-direction: column;
   width: 80%;
-  margin: 3rem auto;
+  margin: 3rem auto 0rem;
   max-width: 1200px;
 
   h3 {

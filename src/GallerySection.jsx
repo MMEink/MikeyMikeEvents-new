@@ -12,7 +12,6 @@ export default function GallerySection({ gallery }) {
   const [hoverImg, setHoverImg] = useState("");
   const [selectedImg, setSelectedImg] = useState("");
   const [show, setShow] = useState(false);
-
   const handleClose = () => {
     setShow(false);
     setSelectedImg("");
