@@ -25,6 +25,7 @@ export default function SwiperSection() {
       <SwiperSlide key={2} className="header-slides slide2"></SwiperSlide>
       <SwiperSlide key={3} className="header-slides slide3"></SwiperSlide>
       <SwiperSlide key={4} className="header-slides slide4"></SwiperSlide>
+      <SwiperSlide key={5} className="header-slides slide5"></SwiperSlide>
 
       <div className="slogan">
         <h2>THE MOST CREATIVE MINDS IN THE EVENT INDUSTRY</h2>

@@ -52,6 +52,10 @@ export const search = [
     link: "lounge-decor",
     name: "lounge decor - Event rentals + Props",
   },
+  {
+    link: "venues",
+    name: "venues",
+  },
 ];
 
 export const events = [
@@ -83,14 +87,18 @@ export const events_swiper = [
           "./images/event-swiper/wedding/transition-planning-edit.jpg",
           "./images/event-swiper/wedding/planning-transition4.jpg",
           "./images/event-swiper/wedding/transition-planning.JPG",
+          "./images/event-swiper/wedding/Transition-planning4-2.jpg",
         ],
         describe:
           "Our experienced team of event planners and designers will help you plan and orchestrate your Wedding from start to finish. The dedicated team at Mikey Mike Events specializes in full-service Wedding Planning for the New York City, Long Island and New Jersey area. Make the choices that you want to make, or develop a creative direction and leave the rest to us. There's no need to make the months leading up to your special day stressful, let Mikey Mike Events take care of everything that you don't want to, and you'll find your expectations exceeded.",
         gallery: [
           "./images/event-swiper/wedding/gallery/static-planning2.jpg",
+          "./images/event-swiper/wedding/gallery/static-planning-2.jpg",
           "./images/event-swiper/wedding/gallery/static-planning5-2.jpg",
           "./images/event-swiper/wedding/gallery/static-planning6.jpg",
           "./images/event-swiper/wedding/gallery/static-planning3.JPG",
+          "./images/event-swiper/wedding/gallery/static-planning.jpg",
+          "./images/event-swiper/wedding/gallery/static-rental-8.jpg",
         ],
       },
       {
@@ -112,45 +120,52 @@ export const events_swiper = [
         images: [
           "./images/event-swiper/wedding/transition-lighting-2.jpg",
           "./images/event-swiper/wedding/transition-lighting2-2.jpg",
+          "./images/event-swiper/wedding/transition-lighting5.jpg",
         ],
         describe:
           "Mikey Mike Events lighting designers will provide you with the very best in lighting services for your special day. Lighting can be used to enhance your theme and give your wedding a unique feel, highlight important moments, bring excitement to your reception, and accentuate the visuals of your floral arrangements and décor. Our lighting services include; Ambient Lighting, Pin Lighting, Up Lighting, Personalized Monograms, Intelligent Lighting, LED Lighting, and Laser Light shows.",
         gallery: [
-          "./images/event-swiper/wedding/gallery/lighting/DSC_0001.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/static-lighting2.jpg",
           "./images/event-swiper/wedding/gallery/lighting/DSC_0073.jpg",
-
-          "./images/event-swiper/wedding/gallery/lighting/IMG_4963.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/bogo1.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/static-lighting3-2.jpg",
           "./images/event-swiper/wedding/gallery/lighting/InVision_0539.jpg",
-          "./images/event-swiper/wedding/gallery/lighting/DSC_0706AA.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/static-lighting-4.jpg",
           "./images/event-swiper/wedding/gallery/lighting/static-lighting4-2.jpg",
           "./images/event-swiper/wedding/gallery/lighting/static-lighting5.jpg",
           "./images/event-swiper/wedding/gallery/lighting/static-lighting6.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/static-lighting-6-2.jpg",
         ],
       },
       {
         name: "event & floral design",
         images: [
-          "./images/event-swiper/wedding/transition-floral-2.jpg",
-          "./images/event-swiper/wedding/transition-floral3-2.jpg",
-          "./images/event-swiper/wedding/transition-floral4-2.jpg",
-          "./images/event-swiper/wedding/transition-design5-2.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/transition-design.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/transition-design5-2.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/transition-floral-2.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/transition-floral3-2.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/transition-floral4-2.jpg",
         ],
         describe:
           "When it comes to your Wedding, it is all about you and bringing your fantasy of your special day to life. Our event design team will combine all aspects of design to create a memorable sensory experience, from striking visuals to floral arrangements and décor, we make sure to include subtle accents that ultimately enhance the experience. Mikey Mike Events will bring everything together in a unified and creative way that will leave you and your partner breathless while being able to enjoy your fantasy wedding, worry-free.",
         gallery: [
-          "./images/event-swiper/wedding/gallery/static-floral-2.jpg",
-          "./images/event-swiper/wedding/gallery/static-floral3-2.jpg",
-          "./images/event-swiper/wedding/gallery/static-design5.jpg",
-          "./images/event-swiper/wedding/gallery/static-floral5-2.jpg",
-          "./images/event-swiper/wedding/gallery/static-design6.jpg",
-
-          "./images/event-swiper/wedding/gallery/static-floral6.jpg",
-          "./images/event-swiper/wedding/gallery/static-floral7.JPG",
-          "./images/event-swiper/wedding/gallery/static-design9-2.jpg",
-          "./images/event-swiper/wedding/gallery/static-design10-2.jpg",
-          "./images/event-swiper/wedding/gallery/static-floral2-2.jpg",
-          "./images/event-swiper/wedding/gallery/static-floral4-2.jpg",
-          "./images/event-swiper/wedding/gallery/static-design7.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-design-11.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-design1-3.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-design4.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-design5.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-design6.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-design9-2.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-design10-2.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-design12.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-floral-2.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-floral2-2.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-floral3-2.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-floral4-2.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-floral6-2.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-floral7.JPG",
+          "./images/event-swiper/wedding/Floral-Event-design/static-floral8.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-floral9.jpg",
+          "./images/event-swiper/wedding/Floral-Event-design/static-floral10.jpeg",
         ],
       },
       {
@@ -174,7 +189,6 @@ export const events_swiper = [
           "./images/event-swiper/wedding/gallery/static-rental5-2.jpg",
           "./images/event-swiper/wedding/gallery/static-rental-2.jpg",
           "./images/event-swiper/wedding/gallery/static-rental-6.jpg",
-          "./images/event-swiper/wedding/gallery/static-floral7.JPG",
         ],
       },
       {
@@ -227,46 +241,65 @@ export const events_swiper = [
     category: [
       {
         name: "planning",
-        images: ["./images/event-swiper/mitzvahs/BARM-planning-transition.jpg"],
+        images: [
+          "./images/event-swiper/mitzvahs/Planning/BARM-planning-transition.jpg",
+          "./images/event-swiper/mitzvahs/Planning/planning-transition.jpg",
+        ],
         describe:
           "Mike Mike Events specializes in creating unique Bar, Bat, & B'nai Mitzvahs. When selecting the entertainment and production for such a beautiful simcha occasion it is important that you choose the right company to handle such an event. With over 20 years of experience in planning and performing at Bar, Bat & B'nai Mitzvahs, Mike Mike Events is committed to making your dreams become a reality. We will work with you to develop a creative direction for the event and ensure that everything contributes to making your young adult the star of their own celebration.",
         gallery: [
-          "./images/event-swiper/mitzvahs/planning-static-pic-3.jpg",
-          "./images/event-swiper/mitzvahs/planning-static-pic-8.jpg",
+          "./images/event-swiper/mitzvahs/Planning/planning-static-pic-3.jpg",
+          "./images/event-swiper/mitzvahs/Planning/planning-static-pic-8-2.jpg",
         ],
       },
       {
         name: "lighting",
         images: [
-          "./images/event-swiper/mitzvahs/transition-lighting-pic-4.jpg",
-          "./images/event-swiper/mitzvahs/transition-lighting.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/transition-light3.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/transition-lighting-pic-4.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/transition-lighting.jpg",
         ],
         describe:
           "Mike Mike Events lighting designers will provide you with the very best in lighting services for your special day. Our design team will help you select the right choice of lighting in order to create the desired ambience for your child's special day. Our lighting services include: Ambient Lighting, Pin Lighting, Up Lighting, Personalized Monograms, Intelligent Lighting, LED Lighting, and Laser Light shows. Give your EDM-loving child a dance floor light show that emulates a music festival, highlight moments of importance, or splash your child's name in lights across the entire venue.",
-        gallery: ["./images/event-swiper/mitzvahs/lighting-static-pic-1.jpg"],
+        gallery: [
+          "./images/event-swiper/mitzvahs/Lighting/lighting-static-pic-1.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/static-light3.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/static-light4.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/static2.jpg",
+        ],
       },
       {
         name: "Music Entertainment",
         images: [
-          "./images/event-swiper/mitzvahs/transition-entertainment-pic-2.jpg",
-          "./images/event-swiper/mitzvahs/entertainment-transition.jpg",
-          "./images/event-swiper/mitzvahs/transition-music-pic-1.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/entertainment-transition-2.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/games-transition-4.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/transitionmusic.jpg",
         ],
         describe:
           "Mikey Mike Events is proud to offer not just musical entertainment, but a wide range of options that leave your child and guests beyond satisfied. Whether it is a high-profile role model of your child delivering a speech and advice for their journey into adulthood, a dance crew performing throughout your event, or a talented visual artist, we can provide a unique experience that truly makes your Bar or Bat Mitzvah an event to be remembered.Whether taking a traditional route or going for an extravagant affair, Mike Mike Events can line up the correct music entertainment to fit your needs. Ensure that your child hears the music they want to hear using the perfect disc jockey or band for your needs. Surprise your child with a special celebrity performance, or make your talented child the star of their own performance. We can mix musical styles as well, allowing a dynamic MC to turn the mundane into the extraordinary by pumping up your guests with a DJ & traditional performer pairing.",
         gallery: [
-          "./images/event-swiper/mitzvahs/entertainment-static-pic-6.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/entertainment-static-pic-6.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/entertainment-static.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/static-graffiti.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/static-harp.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/static-entertainment-pic-2.jpg",
         ],
       },
       {
         name: "event design",
         images: [
-          "./images/event-swiper/mitzvahs/transition-event-design-pic-3.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/transition-event-design-pic-3.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/transition1.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/transition2.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/transition3.jpg",
         ],
         describe:
           "Each and every Bar, Bat, or B'nai Mitzvah that we produce is unique, because we customize your event to your specifications and needs. Mikey Mike Events does all of this while keeping your event budget in mind. We will design and create the ideal experience that your child will remember and be thankful for forever. Whether your goal is a traditional family party, an extravagant party, or an event that makes your child the star of the night, Mikey Mike Events has the tools to make the event happen and exceed all expectations.",
         gallery: [
-          "./images/event-swiper/mitzvahs/event-design-static-pic-4.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static2.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static3.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static4.jpg",
         ],
       },
       {
@@ -276,17 +309,19 @@ export const events_swiper = [
       {
         name: "rentals",
         images: [
-          "./images/event-swiper/mitzvahs/rental-transition-pic-2.jpg",
-          "./images/event-swiper/mitzvahs/rental-transition-pic-5.jpg",
-          "./images/event-swiper/mitzvahs/rental-transition-pic-7.jpg",
+          "./images/event-swiper/mitzvahs/Rental/rental-transition1.jpg",
+          "./images/event-swiper/mitzvahs/Rental/rental-transition2.jpg",
         ],
         describe:
           "Mikey Mike Events is proud to offer its clients the very best in Event Décor and Furniture Rental. Whether it is from our catalog or something custom designed to fit your child's personality, we can make any Mitzvah a unique experience. Combined with the right Décor, Lighting, and Creative Vision, our rentals mold your venue into exactly how you want it to appear for your child and guests. Make them feel like they are at a Hollywood awards ceremony, a concert, an overseas paradise, or anything you can think of. We will work with you to make it happen.",
         gallery: [
-          "./images/event-swiper/mitzvahs/rental-static-pic-2.jpg",
-          "./images/event-swiper/mitzvahs/rental-static-pic-5.jpg",
-          "./images/event-swiper/mitzvahs/rental-static-pic-7.jpg",
-          "./images/event-swiper/mitzvahs/rental-static-pic.jpg",
+          "./images/event-swiper/mitzvahs/Rental/rental-static-pic.jpg",
+          "./images/event-swiper/mitzvahs/Rental/rental-static-pic-7.jpg",
+          "./images/event-swiper/mitzvahs/Rental/rental-static-pic-5.jpg",
+          "./images/event-swiper/mitzvahs/Rental/rental-static-pic-2.jpg",
+          "./images/event-swiper/mitzvahs/Rental/IMG_4316---A.jpg",
+          "./images/event-swiper/mitzvahs/Rental/IMG_4274-A.jpg",
+          "./images/event-swiper/mitzvahs/Rental/IMG_4156-A.jpg",
         ],
       },
     ],
@@ -398,17 +433,19 @@ export const events_swiper = [
       {
         name: "rentals",
         images: [
-          "./images/event-swiper/mitzvahs/rental-transition-pic-2.jpg",
-          "./images/event-swiper/mitzvahs/rental-transition-pic-5.jpg",
-          "./images/event-swiper/mitzvahs/rental-transition-pic-7.jpg",
+          "./images/event-swiper/sweet16s/Rentals/transition-rental.JPG",
+          "./images/event-swiper/sweet16s/Rentals/transition-rental2.jpg",
+          "./images/event-swiper/sweet16s/Rentals/transition-rental3.jpg",
+          "./images/event-swiper/sweet16s/Rentals/transition-rental5.jpg",
         ],
         describe:
           "Mikey Mike Events is proud to offer its clients the very best in Event Décor and Furniture Rentals. Whether it is from our catalog or something custom designed to fit your teen's personality, we can make any Sweet 16 a unique experience. Combined with the right décor, lighting, and creative vision, our rentals mold your venue into exactly how you want it to appear for your teen and guests. Truly, it will be dreaming with your eyes open, as our rentals put the finishing touches on their Sweet 16 fantasy party.",
         gallery: [
-          "./images/event-swiper/mitzvahs/rental-static-pic-2.jpg",
-          "./images/event-swiper/mitzvahs/rental-static-pic-5.jpg",
-          "./images/event-swiper/mitzvahs/rental-static-pic-7.jpg",
-          "./images/event-swiper/mitzvahs/rental-static-pic.jpg",
+          "./images/event-swiper/sweet16s/Rentals/static-design-2.jpg",
+          "./images/event-swiper/sweet16s/Rentals/static-rental.jpg",
+          "./images/event-swiper/sweet16s/Rentals/static-rental6.JPG",
+          "./images/event-swiper/sweet16s/Rentals/static-rental7.JPG",
+          "./images/event-swiper/sweet16s/Rentals/static-rental8.JPG",
         ],
       },
     ],
@@ -471,6 +508,7 @@ export const events_swiper = [
           "./images/event-swiper/milestone/Lighting/InVision_0065.jpg",
           "./images/event-swiper/milestone/Lighting/static.jpg",
           "./images/event-swiper/milestone/Lighting/static2.jpg",
+          "./images/event-swiper/milestone/Lighting/static4.jpg",
         ],
       },
       {

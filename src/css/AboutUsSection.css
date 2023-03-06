@@ -22,6 +22,16 @@
 	.flip-container, .flip-container img, .front, .back{
 		width: 300px;
 		height: 300px;
+		
+	}
+
+	.back p, .back a{
+		font-size: 1rem !important;
+		line-height: 20px;
+	}
+
+	.back p{
+		margin-bottom: 1rem !important;
 	}
 }
 
@@ -38,6 +48,14 @@
 	.flip-container, .flip-container img, .front, .back{
 		width: 250px;
 		height: 250px;
+	}
+
+	.back p, .back a{
+		font-size: 0.9rem !important;
+	}
+
+	.back{
+		padding: 1rem !important;
 	}
 }
 
@@ -58,6 +76,17 @@
 		grid-template-columns: 100%;
 		margin: auto;
 		justify-items: center;
+	}
+	.back p, .back a{
+		font-size: 1.2rem !important;
+		line-height: 30px;
+	}
+
+	.back{
+		padding: 2rem !important;
+	}
+	.back p{
+		margin-bottom: 2rem;
 	}
 }
 

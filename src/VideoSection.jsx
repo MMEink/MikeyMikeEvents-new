@@ -28,7 +28,7 @@ export default function VideoSection({ videoCover, video, video_title }) {
             alt={video_title}
           />
           <div className="videoPlay">
-            <i class="bi bi-play-fill"></i>
+            <i className="bi bi-play-fill"></i>
           </div>
         </div>
 

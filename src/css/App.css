@@ -137,6 +137,7 @@ color: red;
 .header-slides{
   padding: 24rem;
   background-repeat: no-repeat;
+  z-index: -1;
 }
 .videoPlay{
   position: absolute;
@@ -182,14 +183,19 @@ color: #007ebd;
 }
 
 .slide2{
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) , center no-repeat url(../images/home-landing-transition2.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) , center no-repeat url(../images/home-landing-transition5.jpg);
+  
 }
 
 .slide3{
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) , center no-repeat url(../images/home-landing-transition4-1.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) , center no-repeat url(../images/home-landing-transition2.jpg);
+  
 }
 .slide4{
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) , center no-repeat url(../images/home-landing-transition5.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) , center no-repeat url(../images/home-landing-transition4-1.jpg);
+}
+.slide5{
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ) , center no-repeat url(../images/home-landing-transition6-edit.jpg);
 }
 
 .navbar-left{
@@ -252,10 +258,6 @@ form .btn{
   background-color: #007ebd;
   color: white;
   font-family: 'Cabin', sans-serif;
-}
-
-.swiper{
-z-index: -1;
 }
 
 .swiper-wrapper{

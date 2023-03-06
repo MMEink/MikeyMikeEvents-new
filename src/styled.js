@@ -465,6 +465,10 @@ export const GreyEffectButton = styled.a`
       width: 100%;
     }
   }
+
+  @media all and (max-width: 850px) {
+    width: 50%;
+  }
 `;
 
 export const ModalCloseBtn = styled.button`
@@ -716,24 +720,34 @@ export const ServicePagesPortfolio = styled.section`
       width: 100%;
     }
   }
+
+  @media all and (max-width: 1500px) {
+    div {
+      width: 250px;
+      height: 200px;
+    }
+  }
   @media all and (max-width: 1300px) {
     div {
       width: 230px;
       height: 200px;
     }
   }
-  @media all and (max-width: 900px) {
-    grid-template-columns: repeat(3, 1fr);
+
+  @media all and (max-width: 1100px) {
     div {
       width: 200px;
-      height: 180px;
+      height: 200px;
     }
+  }
+  @media all and (max-width: 900px) {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   @media all and (max-width: 650px) {
     grid-template-columns: repeat(3, 1fr);
     div {
-      width: 160px;
+      width: 140px;
       height: 140px;
     }
   }
@@ -788,6 +802,7 @@ export const HorizontalLayOutContainer = styled.section`
   }
   @media all and (max-width: 900px) {
     flex-direction: column-reverse;
+    align-items: center;
     article,
     img {
       width: 90%;
@@ -837,6 +852,12 @@ export const VerticalLayOutContainer = styled.section`
     font-size: 0.8rem;
     letter-spacing: 2px;
     margin-top: 1.5rem;
+  }
+
+  @media all and (max-width: 600px) {
+    img {
+      max-height: 90px;
+    }
   }
 `;
 
