@@ -1,7 +1,5 @@
 import { Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import ContactForm from "../ContactForm";
-import LogoCarousel from "../LogoSection";
 import { AlertPageSection } from "../styled";
 
 export default function ThankyouView() {

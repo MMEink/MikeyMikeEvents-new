@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { VerticalLayOutContainer } from "./styled";
 
 export default function VerticalLayout({ data }) {

@@ -81,11 +81,10 @@ export default function GallerySection({ gallery }) {
       </ServicePagesPortfolio>
       <Modal show={show} onHide={handleClose}>
         <ModalCloseBtn onClick={handleClose}>close</ModalCloseBtn>
-        <ModalCloseBtn onClick={handleClose}>close</ModalCloseBtn>
         {selectedImg && (
           <img
             src={require(`${selectedImg}`)}
-            width="80%"
+            width="50%"
             style={{ alignSelf: "center" }}
             className="modal_singleImg"
             loading="lazy"

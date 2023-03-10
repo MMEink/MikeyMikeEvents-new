@@ -1,5 +1,5 @@
 import { Row } from "react-bootstrap";
-import placeholder from "../images/aboutpicnew.jpg";
+import placeholder from "../images/mike.jpg";
 import FooterView from "../FooterView";
 import "../css/services-aboutuspage.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";

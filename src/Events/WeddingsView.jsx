@@ -1,5 +1,6 @@
 import { Row } from "react-bootstrap";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import SwiperGallerySection from "../SwiperGallerySection";
 import HorizontalLayout from "../HorizontalLayout";
 import VideoSection from "../VideoSection";
@@ -7,6 +8,7 @@ import FooterView from "../FooterView";
 import "../css/services-aboutuspage.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { events_swiper } from "../data";
+import { BrochureBtn } from "../styled";
 
 export default function WeddingsView() {
   const [data, setData] = useState(
@@ -35,6 +37,13 @@ export default function WeddingsView() {
             video_title={data.video_title}
           />
         )}
+        <section style={{ textAlign: "center", marginTop: "2rem" }}>
+          <Link to={"/wedding-brochure"}>
+            <BrochureBtn>
+              New 2023 Brochure <i class="bi bi-book"></i>
+            </BrochureBtn>
+          </Link>
+        </section>
         <HorizontalLayout data={data} />
         <FooterView />
       </Row>

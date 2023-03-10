@@ -218,6 +218,10 @@ height: 110px;
   justify-self: flex-end;
 }
 
+.navBtns button, .navBtns li{
+  cursor: pointer;
+}
+
 .contactBtn{
   padding: 0.5rem 2rem;
   border-radius: 10px;
@@ -437,13 +441,15 @@ to{
 }
 
 .disclaimerSection{
-  width: 80%;
-  margin: 1rem auto;
+  width: 100%;
+  margin:auto;
+  padding: 1rem;
   text-align: center;
   color: #818181;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 1px;
+  background-color: #fff;
 }
 
 .footerSection h4, .footer-icons a{
@@ -1027,7 +1033,6 @@ form .btn{
 
   @media all and (max-width: 500px)  {
     .disclaimerSection{
-      width: 90%;
       font-size: 0.6rem;
     }
     .footer-left, .footer-right{
@@ -1215,4 +1220,22 @@ form .btn{
     right: 0rem;
   }
   
+  }
+
+  .brochure{
+    background-color: grey;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .stf__wrapper{
+    padding-bottom: 70% !important;
+  }
+
+  .stf__parent{
+    max-width: 1200px;
+    width: 80%;
+    margin: 2rem auto;
   }

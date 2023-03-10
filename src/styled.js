@@ -647,6 +647,7 @@ export const SwiperGalleryNav = styled.ul`
   border-bottom: 4px solid rgb(0, 126, 189);
   top: 1.5rem;
   font-size: 12px;
+  z-index: 3;
   li {
     list-style: none;
     padding: 0.7rem 1rem;
@@ -892,5 +893,21 @@ export const VideoSectionContainer = styled.section`
     .textSection {
       padding: 2rem;
     }
+  }
+`;
+
+export const BrochureBtn = styled.div`
+  border-top: 2px solid #007ebd;
+  border-bottom: 2px solid #007ebd;
+  letter-spacing: 1px;
+  color: #007ebd;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  display: inline;
+  cursor: pointer;
+  transition: all 0.25s;
+  &:hover {
+    letter-spacing: 4px;
   }
 `;

@@ -20,6 +20,7 @@ import { Row, Button } from "react-bootstrap";
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./css/App.css";
+import WeddingBrochure from "./Events/WeddingBrochure";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -71,6 +72,10 @@ function App() {
               element={<MilestoneView />}
             ></Route>
             <Route path="mitzvahs" element={<MitzvahsView />}></Route>
+            <Route
+              path="wedding-brochure"
+              element={<WeddingBrochure />}
+            ></Route>
           </Route>
         </Routes>
 

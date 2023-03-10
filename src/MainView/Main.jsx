@@ -9,6 +9,7 @@ function MainView() {
     video: "https://player.vimeo.com/video/560020648?dnt=1&app_id=122963",
     video_title: "MIKE MIKE EVENTS IS BACK!",
   };
+
   return (
     <Row>
       <SwiperSection />
