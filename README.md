@@ -22,21 +22,26 @@ All other works are done in folder src. Project start point is index.js -> App.j
 Control "scroll to the top" round button, site route links, Navbar on all pages. Anything added inside <Router> tag will appear on all the site pages, for instance the Navbar. Add Route for new links. 
 #### App.css
 Most styles of the home page are done in this file. 
-#### BlackBanner.jsx, ContactForm.jsx, LogoCarousel.jsx, Navbar.jsx
-These are re-usable components and are shared in almost all the pages/Views. 
+#### FooterView.jsx, ContactForm.jsx, GallerySection.jsx, HorizontalLayout.jsx, LogoSection.jsx, Navbar.jsx, SwiperGallerySection.jsx, SwiperWizVideo.jsx, VerticalLayout.jsx,VideoSection.jsx
+These are re-usable components and are shared in almost all the pages/Views, used to compose each page. 
 #### ScrollToTop.jsx
 this helps scroll to top automatically every time the link is changed. (bug fixer)
 #### styled.js
 custom tags and reuseable tags. Is used for styling, save the headache of classname Convention and avoid confusion. 
 #### data.js
-all re-usable and shared data is stored in this file. To change the contents on home page, services home page, this might be the only file you have to modify. 
+all re-usable and shared data is stored in this file. To change the contents on home page, services home page, this might be the only file you have to modify. (search: for the search engine; events:for events dropdown; homepageIntro: for the flip data on homepage)
 ### src/View folders
 folders' naming convention end with View represents the main pages of the site, include about us page, contact page, 404 page, thank you page, service home page, portfolio page. 
 ### src/ServicePages
-inside pages for each services in the service home page. Content in here is not re-usable nor shareable, page style is the same except the header image but contents are customized for each page.
+The pages can be redirected under the services dropdown. The layout is slightly different btw pages but mostly all components are reusing in other pages, differentiated by sections. Data can be found in data.js. Data name is "services" and names by each pages. 
+### src/Events
+The pages can be redirected under the events dropdown or the 4 tiles on the home page. The layout is mostly the same except some pages might have one extra brochure button, differentiated by sections. Data can be found in data.js. Data name is "events_swiper" and names by each pages. 
 ### src/images
-images needed for shared components/sections. For instace, logo carousel, navbar......
+Most of the images on this website is in this folder except the images of the flip on the frontpage.
 
+## Some React Tips
+1. require() sources are not very useful with source location ../ Try to use ./ all the time. Move the folder to the closet location if needed
+2. Styles could be difficult to locate because there is many places but using dev tool in the browser can easily locate them. Element with a non-sense class is the ones created in style.js file. 
 
 ## Available Scripts
 In the project directory, you can run:

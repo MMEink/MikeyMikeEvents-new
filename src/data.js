@@ -1,3 +1,7 @@
+export const brochurePdf = [
+  { name: "wedding", pdf: "./pdfs/wedding-brochure-2023.pdf" },
+];
+
 export const search = [
   {
     link: "weddings",
@@ -288,34 +292,38 @@ export const events_swiper = [
       {
         name: "lighting",
         images: [
-          "./images/event-swiper/mitzvahs/Lighting/transition-light3.jpg",
-          "./images/event-swiper/mitzvahs/Lighting/transition-lighting-pic-4.jpg",
-          "./images/event-swiper/mitzvahs/Lighting/transition-lighting.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/transition2.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/transition3.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/transition4.jpg",
         ],
         describe:
           "Mike Mike Events lighting designers will provide you with the very best in lighting services for your special day. Our design team will help you select the right choice of lighting in order to create the desired ambience for your child's special day. Our lighting services include: Ambient Lighting, Pin Lighting, Up Lighting, Personalized Monograms, Intelligent Lighting, LED Lighting, and Laser Light shows. Give your EDM-loving child a dance floor light show that emulates a music festival, highlight moments of importance, or splash your child's name in lights across the entire venue.",
         gallery: [
-          "./images/event-swiper/mitzvahs/Lighting/lighting-static-pic-1.jpg",
-          "./images/event-swiper/mitzvahs/Lighting/static-light3.jpg",
-          "./images/event-swiper/mitzvahs/Lighting/static-light4.jpg",
-          "./images/event-swiper/mitzvahs/Lighting/static2.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/static2-edit.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/static3.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/static4.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/static6.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/static7.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/static8.jpg",
+          "./images/event-swiper/mitzvahs/Lighting/static9.jpg",
         ],
       },
       {
         name: "Music Entertainment",
         images: [
-          "./images/event-swiper/mitzvahs/Entertainment/entertainment-transition-2.jpg",
-          "./images/event-swiper/mitzvahs/Entertainment/games-transition-4.jpg",
-          "./images/event-swiper/mitzvahs/Entertainment/transitionmusic.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/transition1.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/transition2.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/transition3.jpg",
         ],
         describe:
           "Mikey Mike Events is proud to offer not just musical entertainment, but a wide range of options that leave your child and guests beyond satisfied. Whether it is a high-profile role model of your child delivering a speech and advice for their journey into adulthood, a dance crew performing throughout your event, or a talented visual artist, we can provide a unique experience that truly makes your Bar or Bat Mitzvah an event to be remembered.Whether taking a traditional route or going for an extravagant affair, Mike Mike Events can line up the correct music entertainment to fit your needs. Ensure that your child hears the music they want to hear using the perfect disc jockey or band for your needs. Surprise your child with a special celebrity performance, or make your talented child the star of their own performance. We can mix musical styles as well, allowing a dynamic MC to turn the mundane into the extraordinary by pumping up your guests with a DJ & traditional performer pairing.",
         gallery: [
-          "./images/event-swiper/mitzvahs/Entertainment/entertainment-static-pic-6.jpg",
-          "./images/event-swiper/mitzvahs/Entertainment/entertainment-static.jpg",
-          "./images/event-swiper/mitzvahs/Entertainment/static-graffiti.jpg",
-          "./images/event-swiper/mitzvahs/Entertainment/static-harp.jpg",
-          "./images/event-swiper/mitzvahs/Entertainment/static-entertainment-pic-2.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/static2.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/static3.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/static4.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/static5.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/static6.jpg",
+          "./images/event-swiper/mitzvahs/Entertainment/static7.jpg",
         ],
       },
       {
@@ -353,18 +361,37 @@ export const events_swiper = [
       {
         name: "event design",
         images: [
-          "./images/event-swiper/mitzvahs/Event-design/transition-event-design-pic-3.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/transiiton3.jpg",
           "./images/event-swiper/mitzvahs/Event-design/transition1.jpg",
           "./images/event-swiper/mitzvahs/Event-design/transition2.jpg",
-          "./images/event-swiper/mitzvahs/Event-design/transition3.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/transition4.jpg",
         ],
         describe:
           "Each and every Bar, Bat, or B'nai Mitzvah that we produce is unique, because we customize your event to your specifications and needs. Mikey Mike Events does all of this while keeping your event budget in mind. We will design and create the ideal experience that your child will remember and be thankful for forever. Whether your goal is a traditional family party, an extravagant party, or an event that makes your child the star of the night, Mikey Mike Events has the tools to make the event happen and exceed all expectations.",
         gallery: [
-          "./images/event-swiper/mitzvahs/Event-design/static.jpg",
-          "./images/event-swiper/mitzvahs/Event-design/static2.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static2-2.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static3-2.jpg",
           "./images/event-swiper/mitzvahs/Event-design/static3.jpg",
-          "./images/event-swiper/mitzvahs/Event-design/static4.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static5.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static8.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static10.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static12.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static13.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static14.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static15.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static16.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static17.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static20.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static22.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static23.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static24.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static25.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static26.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static27.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static29.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static30.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static31.jpg",
+          "./images/event-swiper/mitzvahs/Event-design/static32.jpg",
         ],
       },
       {

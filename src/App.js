@@ -20,7 +20,8 @@ import { Row, Button } from "react-bootstrap";
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./css/App.css";
-import WeddingBrochure from "./Events/WeddingBrochure";
+import Brochure from "./Events/Brochure";
+import { brochurePdf } from "./data";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -74,7 +75,19 @@ function App() {
             <Route path="mitzvahs" element={<MitzvahsView />}></Route>
             <Route
               path="wedding-brochure"
-              element={<WeddingBrochure />}
+              element={
+                <Brochure
+                  pdf={brochurePdf.find((e) => e.name === "wedding").pdf}
+                />
+              }
+            ></Route>
+            <Route
+              path="mitzvahs-brochure"
+              element={
+                <Brochure
+                  pdf={brochurePdf.find((e) => e.name === "wedding").pdf}
+                />
+              }
             ></Route>
           </Route>
         </Routes>
