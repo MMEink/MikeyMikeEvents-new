@@ -40,7 +40,7 @@ export default function WeddingsView() {
         <section style={{ textAlign: "center", marginTop: "2rem" }}>
           <Link to={"/wedding-brochure"}>
             <BrochureBtn>
-              New 2023 Brochure <i class="bi bi-book"></i>
+              Click To View Our Wedding Brochure <i class="bi bi-book"></i>
             </BrochureBtn>
           </Link>
         </section>

@@ -24,8 +24,11 @@ const Page = React.forwardRef(({ pageNumber }, ref) => {
 export default function Brochure({ pdf }) {
   return (
     <div className="brochure">
-      <Document file={require(`./pdfs/wedding-brochure-2023.pdf`)}>
-        <HTMLFlipBook width={width} height={height}>
+      <Document file={require(`${pdf}`)}>
+        <HTMLFlipBook
+          width={window.innerWidth > 900 ? width : 375}
+          height={height}
+        >
           {pages.map((i) => (
             <div className="demoPage">
               <Page pageNumber={i} />

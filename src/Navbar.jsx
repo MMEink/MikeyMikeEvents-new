@@ -100,6 +100,8 @@ export default function NavbarView() {
               <img src={logo} alt="logo" className="navbar-logo" />
             </Link>
           </Navbar.Brand>
+        </div>
+        <div className="navbar-right">
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
             onClick={() => setExpanded(expanded ? false : "expanded")}
@@ -295,19 +297,61 @@ export default function NavbarView() {
                 </Button>
               </Link>
             </NavBtnContainer>
+            <NavBtnContainer
+              onMouseEnter={() => setDropdownToggle("locations")}
+              onMouseLeave={() => setDropdownToggle("")}
+            >
+              {window.innerWidth >= 900 ? (
+                <Button className="navBtn" onClick={() => setExpanded(false)}>
+                  <span>Locations</span>
+                </Button>
+              ) : (
+                <Button
+                  className="navBtn"
+                  onClick={() =>
+                    dropdownToggle === "locations"
+                      ? setDropdownToggle("")
+                      : setDropdownToggle("locations")
+                  }
+                >
+                  <span>Locations</span>
+                  {dropdownToggle ? (
+                    <i
+                      class="bi bi-caret-up-fill"
+                      style={{ color: "#007ebd" }}
+                    ></i>
+                  ) : (
+                    <i
+                      class="bi bi-caret-down-fill"
+                      style={{ color: "#007ebd" }}
+                    ></i>
+                  )}
+                </Button>
+              )}
+              {dropdownToggle === "locations" && (
+                <DropdownContainer>
+                  <div>
+                    <ul>
+                      <Link to={"/"}>
+                        <li>New York</li>
+                      </Link>
+                      <a href="https://www.mmeinksouth.com/">
+                        <li>Miami</li>
+                      </a>
+                    </ul>
+                  </div>
+                </DropdownContainer>
+              )}
+            </NavBtnContainer>
           </Navbar.Collapse>
+          <Link to={"/contact"} onClick={() => setExpanded(false)}>
+            <div>
+              <EffectButton>
+                <span>Get Started</span>
+              </EffectButton>
+            </div>
+          </Link>
         </div>
-        <Link
-          to={"/contact"}
-          onClick={() => setExpanded(false)}
-          className="navbar-right"
-        >
-          <div>
-            <EffectButton>
-              <span>Get Started</span>
-            </EffectButton>
-          </div>
-        </Link>
       </div>
     </Navbar>
   );

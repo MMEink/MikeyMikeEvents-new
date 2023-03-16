@@ -85,7 +85,7 @@ function App() {
               path="mitzvahs-brochure"
               element={
                 <Brochure
-                  pdf={brochurePdf.find((e) => e.name === "wedding").pdf}
+                  pdf={brochurePdf.find((e) => e.name === "mitzvahs").pdf}
                 />
               }
             ></Route>

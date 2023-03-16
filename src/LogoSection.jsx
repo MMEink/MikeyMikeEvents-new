@@ -16,9 +16,9 @@ export default function LogoSection() {
       url: "https://www.eventsatartistry.com/",
     },
     {
-      name: "MMEink",
-      img: "./images/logos/MMEink-Logo_on blue.png",
-      url: "https://www.mmeink.com/",
+      name: "Studios",
+      img: "./images/logos/daylight-studio-logo.jpg",
+      url: "https://www.thestudiosevents.com/",
     },
     {
       name: "tardis",
@@ -26,14 +26,14 @@ export default function LogoSection() {
       url: "https://tardiscatering.com/",
     },
     {
-      name: "mikeyEvents",
-      img: "./images/logos/MikeymikeEventslogo.png",
-      url: "https://mikeymikeevents.com/",
+      name: "williamsburg",
+      img: "./images/logos/opera-house-logo.png",
+      url: "https://www.williamsburgoperahouse.com/",
     },
     {
-      name: "vpp",
-      img: "./images/logos/vpp-logo.png",
-      url: "https://www.virtualpartyplanner.com/",
+      name: "the 1912",
+      img: "./images/logos/The1912.jpg",
+      url: "https://www.1912events.com/",
     },
     {
       name: "441vintage",
@@ -41,9 +41,9 @@ export default function LogoSection() {
       url: "https://www.441vintage.com/",
     },
     {
-      name: "infuso",
-      img: "./images/logos/infuso.png",
-      url: "https://www.infusopops.com/",
+      name: "the loft midtown",
+      img: "./images/logos/lofts-venue-logo.jpg",
+      url: "https://www.theloftinmidtown.com/",
     },
     {
       name: "midtown-veranda",
@@ -51,9 +51,9 @@ export default function LogoSection() {
       url: "https://www.midtownveranda.com/",
     },
     {
-      name: "emena",
-      img: "./images/logos/emenalogo-message-2.png",
-      url: "https://emenaspa.com/",
+      name: "NY cruise",
+      img: "./images/logos/terminal-logo12.jpg",
+      url: "https://www.brooklynterminalevents.com/",
     },
   ];
   return (
