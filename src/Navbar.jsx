@@ -19,7 +19,7 @@ export default function NavbarView() {
       setShowSuggestion(false);
     }
     const result = search.filter(
-      (s) => s.name.toLowerCase().indexOf(value.toLowerCase()) > -1
+      (s) => s.keywords.toLowerCase().indexOf(value.toLowerCase()) > -1
     );
     setSuggestion(result);
   };

@@ -9,19 +9,19 @@ import { services } from "../data";
 
 export default function LoungeDecorView() {
   const [data, setData] = useState(
-    services.filter((e) => e.name === "Lounge Decor - Event rentals + Props")[0]
+    services.filter((e) => e.name === "Lounge Decor & Event Rentals")[0]
   );
   return (
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>Lounge Decor - Mikey Mike Events</title>
+          <title>Lounge Decor & Event Rentals - Mikey Mike Events</title>
           <meta
             name="description"
             content="Get the best results from your email campaigns with professional help from E-Max Interactive. Contact us for the top email marketing services for your business."
           />
         </Helmet>
-        <section className="eventHeader">Lounge Decor</section>
+        <section className="eventHeader">Lounge Decor & Event Rentals</section>
         <VerticalLayout data={data} />
         <FooterView />
       </Row>

@@ -679,6 +679,27 @@ export const SwiperGalleryNav = styled.ul`
   @media all and (max-width: 1200px) {
     flex-wrap: wrap;
   }
+  @media all and (max-width: 600px) {
+    flex-direction: column;
+    li {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      margin: 0;
+    }
+    .learnMore_mb {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border: none;
+      letter-spacing: 0.5px;
+      padding: 0.7rem 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      i {
+        margin-left: 1rem;
+        font-size: 15px;
+      }
+    }
+  }
 `;
 
 export const AlertPageSection = styled.div`
@@ -825,6 +846,7 @@ export const VerticalLayOutContainer = styled.section`
     font-size: 2.2rem;
     font-weight: 600;
     margin-top: 2rem;
+    text-transform: uppercase;
   }
 
   h4 {
@@ -909,5 +931,9 @@ export const BrochureBtn = styled.div`
   transition: all 0.25s;
   &:hover {
     letter-spacing: 4px;
+  }
+  @media all and (max-width: 450px) {
+    font-size: 1rem;
+    letter-spacing: 0;
   }
 `;

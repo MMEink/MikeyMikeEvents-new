@@ -12,6 +12,7 @@ import "swiper/css/effect-fade";
 import { useState, useEffect } from "react";
 
 export default function SwiperGallerySection({ data }) {
+  const [expand, setExpand] = useState(false);
   const [selected_img, setSelectedImg] = useState(data[0].images);
   const [selected_gallery, setSelectedGallery] = useState(data[0].gallery);
   const [selected_describe, setSelectedDescribe] = useState(data[0].describe);
@@ -27,15 +28,24 @@ export default function SwiperGallerySection({ data }) {
   return (
     <Row className="swipperGallery-container">
       <SwiperGalleryNav>
-        {data.map((e, i) => (
-          <li
-            key={i}
-            onClick={() => setSelected(e.name)}
-            className={selected === e.name ? "selectedGalleryBtn" : "noeffect"}
-          >
-            {e.name}
-          </li>
-        ))}
+        {window.innerWidth < 600 && (
+          <button onClick={() => setExpand(!expand)} className="learnMore_mb">
+            Learn More
+            <i class="bi bi-list"></i>
+          </button>
+        )}
+        {(window.innerWidth > 600 || expand) &&
+          data.map((e, i) => (
+            <li
+              key={i}
+              onClick={() => setSelected(e.name)}
+              className={
+                selected === e.name ? "selectedGalleryBtn" : "noeffect"
+              }
+            >
+              {e.name}
+            </li>
+          ))}
       </SwiperGalleryNav>
 
       <Swiper

@@ -1,6 +1,21 @@
 import { Button, Form } from "react-bootstrap";
+import { Autoplay, EffectFade } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+//site css imports below
+import "swiper/css";
+import "swiper/css/bundle";
+import "swiper/css/pagination";
+import "swiper/css/autoplay";
+import "swiper/css/effect-fade";
 
 export default function ContactForm() {
+  const imgSlider = [
+    "./images/contact-page/static1.jpg",
+    "./images/contact-page/static2.jpg",
+    "./images/contact-page/static3.jpg",
+    "./images/contact-page/static4.jpg",
+    "./images/contact-page/static5.jpg",
+  ];
   return (
     <div id="contact" className="formContainer">
       <Form
@@ -163,6 +178,23 @@ export default function ContactForm() {
           Farmingdale NY <br />
           (877) 885-0705
         </div>
+
+        <Swiper
+          modules={[Autoplay, EffectFade]}
+          effect="fade"
+          autoplay={true}
+          speed={3000}
+          spaceBetween={50}
+          slidesPerView={1}
+          centeredSlides
+          className="contactSwiper"
+        >
+          {imgSlider.map((img, i) => (
+            <SwiperSlide key={i}>
+              <img src={require(`${img}`)} alt="slide1" />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );

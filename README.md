@@ -42,6 +42,7 @@ Most of the images on this website is in this folder except the images of the fl
 ## Some React Tips
 1. require() sources are not very useful with source location ../ Try to use ./ all the time. Move the folder to the closet location if needed
 2. Styles could be difficult to locate because there is many places but using dev tool in the browser can easily locate them. Element with a non-sense class is the ones created in style.js file. 
+3. I updated the search data with keywords, all keywords put into each section will reflet on its search result. Feel free to add any keywords that is related to the result. 
 
 ## Available Scripts
 In the project directory, you can run:

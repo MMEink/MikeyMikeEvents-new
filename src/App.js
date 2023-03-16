@@ -2,14 +2,15 @@ import NavbarView from "./Navbar";
 import MainView from "./MainView/Main";
 import AboutUsView from "./AboutUsView/AboutUsView";
 import ContactView from "./ContactView/ContactView";
-import EventDesignDecorView from "./ServicePages/EventDesignDecorView";
 import LoungeDecorView from "./ServicePages/LoungeDecorView";
 import LightingView from "./ServicePages/LightingView";
 import WeddingsView from "./Events/WeddingsView";
-import FloralDesignView from "./ServicePages/FloralDesignView";
-import EntertainmentView from "./ServicePages/EntertainmentView";
+import FloralDesignDecorView from "./ServicePages/FloralDesignDecorView";
+import MusicEntertainmentView from "./ServicePages/MusicEntertainmentView";
 import MilestoneView from "./Events/MilestoneView";
 import VenuesView from "./VenuesView/VenuesView";
+import NoveltyView from "./ServicePages/NoveltyView";
+import ThemePropsView from "./ServicePages/ThemePropsView";
 import MitzvahsView from "./Events/MitzvahsView";
 import Sweet16sView from "./Events/Sweet16sView";
 import NotFoundView from "./NotFoundView/NotFoundView";
@@ -55,18 +56,28 @@ function App() {
             <Route path="aboutus" element={<AboutUsView />}></Route>
             <Route path="contact" element={<ContactView />}></Route>
             <Route
-              path="event-design-decor"
-              element={<EventDesignDecorView />}
+              path="music-entertainment"
+              element={<MusicEntertainmentView />}
             ></Route>
-            <Route path="entertainment" element={<EntertainmentView />}></Route>
-            <Route path="floral-design" element={<FloralDesignView />}></Route>
+            <Route
+              path="floral-design-decor"
+              element={<FloralDesignDecorView />}
+            ></Route>
             <Route path="*" element={<NotFoundView />}></Route>
             <Route path="thankyou" element={<ThankyouView />}></Route>
             <Route path="lighting" element={<LightingView />}></Route>
             <Route path="performers" element={<PerformersView />}></Route>
-            <Route path="lounge-decor" element={<LoungeDecorView />}></Route>
+            <Route
+              path="lounge-decor-rentals"
+              element={<LoungeDecorView />}
+            ></Route>
             <Route path="weddings" element={<WeddingsView />}></Route>
             <Route path="sweet16s" element={<Sweet16sView />}></Route>
+            <Route
+              path="novelty-entertainment"
+              element={<NoveltyView />}
+            ></Route>
+            <Route path="theme-props" element={<ThemePropsView />}></Route>
             <Route path="venues" element={<VenuesView />}></Route>
             <Route
               path="milestone-celebrations"

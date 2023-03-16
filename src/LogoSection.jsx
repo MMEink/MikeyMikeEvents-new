@@ -69,7 +69,7 @@ export default function LogoSection() {
 
         <section className="eventHeader">Venues</section>
         <h2 className="eventSubheader">
-          Plan Your Event at One of Our Exclusive Venues
+          We are Proud to be a Part of These Unique Exclusive Venues
         </h2>
 
         <section className="logoCarousel">

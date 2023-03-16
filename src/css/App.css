@@ -110,6 +110,16 @@ a {
 color: red;
 }
 
+.contactSwiper{
+  margin-top: 2rem;
+width: 375px;
+height: 600px;
+}
+
+.services-swiper{
+  width: 100%;
+}
+
 .swiper-container{
   width: 100%;
 }
@@ -829,7 +839,7 @@ form .btn{
   .stf__parent canvas{
     width: 400px !important;
     height: auto !important;
-    left: -13px;
+    left: -13px !important;
   }
   .swiper-video{
     height: 230px !important;

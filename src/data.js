@@ -6,60 +6,74 @@ export const brochurePdf = [
 export const search = [
   {
     link: "weddings",
+    keywords: "Weddings",
     name: "Weddings",
   },
   {
     link: "mitzvahs",
+    keywords: "Bar & Bat Mitzvahs",
     name: "Bar & Bat Mitzvahs",
   },
   {
     link: "sweet16s",
+    keywords: "Sweet 16S",
     name: "Sweet 16S",
   },
   {
     link: "milestone-celebrations",
+    keywords: "Milestone Celebrations",
     name: "Milestone Celebrations",
   },
   {
     link: "aboutus",
+    keywords: "About us",
     name: "About us",
   },
   {
     a: "https://tardiscatering.com/",
+    keywords: "Tardi's Catering / Food / Beverage /Catering",
     name: "Tardi's Catering / Food / Beverage /Catering",
     text: "Check Out Our Tardi's Catering Site!",
   },
   {
     link: "contact",
+    keywords: "Contact us | call | phone number",
     name: "Contact us",
   },
   {
-    link: "event-design-decor",
-    name: "Event Design And Decor",
+    link: "floral-design-decor",
+    keywords: "Event | floral Design And Decor",
+    name: "Floral Design And Decor",
   },
   {
-    link: "entertainment",
-    name: "Musical Entertainment - Game and More",
-  },
-  {
-    link: "floral-design",
-    name: "Floral Design",
+    link: "music-entertainment",
+    keywords: "Musical Entertainment - Game and More",
+    name: "Musical Entertainment",
   },
   {
     link: "lighting",
+    keywords: "Lighting",
     name: "Lighting",
   },
   {
     link: "performers",
+    keywords: "performers",
     name: "performers",
   },
   {
     link: "lounge-decor",
-    name: "lounge decor - Event rentals + Props",
+    keywords: "lounge decor - Event rentals",
+    name: "lounge decor & Event rentals",
   },
   {
-    link: "venues",
-    name: "venues",
+    link: "novelty-entertainment",
+    keywords: "extra entertainment & novelty",
+    name: "extra entertainment & novelty",
+  },
+  {
+    link: "theme-props",
+    keywords: "theme props",
+    name: "theme props",
   },
 ];
 
@@ -597,49 +611,65 @@ export const events_swiper = [
       {
         name: "planning",
         images: [
-          "./images/event-swiper/milestone/Planning/transition-planning-2.jpg",
-          "./images/event-swiper/milestone/Planning/transition-planning1.jpg",
-          "./images/event-swiper/milestone/Planning/transition-planning3.jpg",
+          "./images/event-swiper/milestone/Planning/transition1.jpg",
+          "./images/event-swiper/milestone/Planning/transition2.jpg",
+          "./images/event-swiper/milestone/Planning/transition-3.jpg",
+          "./images/event-swiper/milestone/Planning/transition-4.jpg",
         ],
         describe:
           "Our planning team stays on top of the latest trends as well as sets the tone for new ones in the event scene, and their attention to detail and desire to put a smile on your face at your own event is second to none. Let our planning team take care of all of the details for you so that you can feel like less of an organizer and more of a guest at your own affair. Be as involved as you want to in the planning process, give us a creative direction to follow, or leave it all up to us. Either way, we will work within your budget to give you the best celebration possible.",
         gallery: [
-          "./images/event-swiper/milestone/Planning/milestone-home.jpg",
-          "./images/event-swiper/milestone/Planning/static-milestone.jpg",
+          "./images/event-swiper/milestone/Planning/static1.jpg",
           "./images/event-swiper/milestone/Planning/static2.jpg",
+          "./images/event-swiper/milestone/Planning/static3.jpg",
+          "./images/event-swiper/milestone/Planning/static4.jpg",
+          "./images/event-swiper/milestone/Planning/static5.jpg",
         ],
       },
       {
         name: "music entertainment",
         images: [
-          "./images/event-swiper/milestone/Entertainment/transition.jpg",
-          "./images/event-swiper/milestone/Entertainment/transition2.jpg",
+          "./images/event-swiper/wedding/Musical-Entertainment/transition--violins1.jpg",
+          "./images/event-swiper/wedding/Musical-Entertainment/transition-jazz2.jpg",
+          "./images/event-swiper/wedding/Musical-Entertainment/transition-band3.jpg",
+          "./images/event-swiper/wedding/Musical-Entertainment/transition-DJ4-2.jpg",
         ],
         describe:
           "Whether your Milestone Celebration is a low-key dinner or a loud party at a popular venue, we can design the right music program for it. You may desire a solo artist performing a few songs, a DJ complete with an MC, a band, or any combination of these and we know that this talent surpass your expectations.",
         gallery: [
-          "./images/event-swiper/milestone/Entertainment/ms_music-2.jpg",
-          "./images/event-swiper/milestone/Entertainment/static-band1.jpg",
-          "./images/event-swiper/milestone/Entertainment/static-band2.jpg",
-          "./images/event-swiper/milestone/Entertainment/static-band3.jpg",
-          "./images/event-swiper/milestone/Entertainment/static-violin.jpg",
-          "./images/event-swiper/milestone/Entertainment/static3.jpg",
+          "./images/event-swiper/wedding/Musical-Entertainment/guitar-static.jpg",
+          "./images/event-swiper/wedding/Musical-Entertainment/harp-static.jpg",
+          "./images/event-swiper/wedding/Musical-Entertainment/percussion-static.jpg",
+          "./images/event-swiper/wedding/Musical-Entertainment/static-band.jpg",
+          "./images/event-swiper/wedding/Musical-Entertainment/static-band2.jpg",
+          "./images/event-swiper/wedding/Musical-Entertainment/static-bass.jpg",
+          "./images/event-swiper/wedding/Musical-Entertainment/static-bride-dj.jpg",
+          "./images/event-swiper/wedding/Musical-Entertainment/static-drumparty.jpg",
+          "./images/event-swiper/wedding/Musical-Entertainment/static-keys.jpg",
         ],
       },
       {
         name: "lighting",
         images: [
-          "./images/event-swiper/milestone/Lighting/transition.jpg",
-          "./images/event-swiper/milestone/Lighting/transition2.jpg",
-          "./images/event-swiper/milestone/Lighting/transition-3.jpg",
+          "./images/event-swiper/wedding/transition-lighting-2.jpg",
+          "./images/event-swiper/wedding/transition-lighting2-2.jpg",
+          "./images/event-swiper/wedding/transition-lighting5.jpg",
         ],
         describe:
           "When it comes to commemorating an important life event, our lighting designers know exactly how to bring your vision to life. Lighting is the subtle difference between creating one mood or another, and our team knows how to use lighting to make an affair appear traditional, contemporary, or something out of a fantasy. Our lighting services include: Ambient Lighting, Pin Lighting, Up Lighting, Personalized Monograms, Intelligent Lighting, LED Lighting, and Laser Light shows.",
         gallery: [
-          "./images/event-swiper/milestone/Lighting/InVision_0065.jpg",
-          "./images/event-swiper/milestone/Lighting/static.jpg",
-          "./images/event-swiper/milestone/Lighting/static2.jpg",
-          "./images/event-swiper/milestone/Lighting/static4.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/static-lighting2.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/DSC_0073.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/bogo1.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/static-lighting3-2.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/InVision_0539.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/static-lighting-4.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/static-lighting4-2.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/static-lighting5.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/static-lighting6.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/static-lighting-6-2.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/static-artistry.jpg",
+          "./images/event-swiper/wedding/gallery/lighting/static-lighting.jpg",
         ],
       },
       {
@@ -664,16 +694,43 @@ export const events_swiper = [
       {
         name: "lounge decor & rentals",
         images: [
-          "./images/event-swiper/milestone/Rentals/transition.jpg",
-          "./images/event-swiper/milestone/Rentals/transition2.jpg",
-          "./images/event-swiper/milestone/Rentals/transition3.jpg",
+          "./images/event-swiper/milestone/lounge-decor-rentals/transition1.jpg",
+          "./images/event-swiper/milestone/lounge-decor-rentals/transition2.jpg",
+          "./images/event-swiper/milestone/lounge-decor-rentals/transition3.jpg",
+          "./images/event-swiper/milestone/lounge-decor-rentals/transition4.jpg",
         ],
         describe:
           "Whether your Milestone Celebration or life event is one often-celebrated or one you are setting a trend by celebrating, our design team works with our rental and fabrication department to bring you a unique experience. With a large stock of rental items and the ability to fabricate our own items, Mikey Mike Events can mold the visual style of any venue into something appropriate for your affair. We make your event a unique one, with décor and accents to match.",
         gallery: [
-          "./images/event-swiper/milestone/Rentals/milestone-slider-1.jpg",
-          "./images/event-swiper/milestone/Rentals/static.jpg",
-          "./images/event-swiper/milestone/Rentals/static2.jpg",
+          "./images/event-swiper/milestone/lounge-decor-rentals/static1.jpg",
+          "./images/event-swiper/milestone/lounge-decor-rentals/static3.jpg",
+          "./images/event-swiper/milestone/lounge-decor-rentals/static4.jpg",
+          "./images/event-swiper/milestone/lounge-decor-rentals/static7.jpg",
+          "./images/event-swiper/milestone/lounge-decor-rentals/static9.jpg",
+          "./images/event-swiper/milestone/lounge-decor-rentals/static10.jpg",
+          "./images/event-swiper/milestone/lounge-decor-rentals/static11.jpg",
+        ],
+      },
+      {
+        name: "novelty entertainment",
+        images: [
+          "./images/event-swiper/wedding/novelty-entertainment/transition1.jpg",
+          "./images/event-swiper/wedding/novelty-entertainment/transition2.jpg",
+          "./images/event-swiper/wedding/novelty-entertainment/transition3.jpg",
+          "./images/event-swiper/wedding/novelty-entertainment/transition4.jpg",
+        ],
+        describe:
+          "We are proud to offer our clients the very best in disc jockey or live musical performances. Mikey Mike Events can fulfill all of your live musical needs at your event. Want an a cappella performer to greet your guests in the lobby or to entertain during cocktail hour? How about a high energy DJ, MC, or live band to keep the reception going from start to finish? Or perhaps a special appearance from a high-profile performer for your first dance? We can work with you to ensure everything is perfect and that your wedding sounds exactly how you want it to.",
+        gallery: [
+          "./images/event-swiper/wedding/novelty-entertainment/static1.jpg",
+          "./images/event-swiper/wedding/novelty-entertainment/static2.jpg",
+          "./images/event-swiper/wedding/novelty-entertainment/static3.jpg",
+          "./images/event-swiper/wedding/novelty-entertainment/static4.jpg",
+          "./images/event-swiper/wedding/novelty-entertainment/static5.jpg",
+          "./images/event-swiper/wedding/novelty-entertainment/static6.jpg",
+          "./images/event-swiper/wedding/novelty-entertainment/static7.jpg",
+          "./images/event-swiper/wedding/novelty-entertainment/static8.jpg",
+          "./images/event-swiper/wedding/novelty-entertainment/static10.jpg",
         ],
       },
     ],
@@ -688,24 +745,17 @@ export const events_swiper = [
 
 export const services = [
   {
-    link: "event-design-decor",
-    name: "Event Design And Decor",
-    article_title: "EVENT DESIGN & DECOR",
+    link: "floral-design-decor",
+    name: "Floral Design & Decor",
+    article_title: "Floral Design & Decor",
     article_subheader:
       "Mikey Mike Events can serve you as a full-service boutique, where we can create a direction for you or we can have your own vision materialize before your very eyes. We also maintain an exclusive inventory of décor, allowing us to provide you with a fresh look for your next event across a wide range of styles.",
     article:
       "The design team at MMEink will help you customize your special event from concept to completion. Our rental inventory includes a variety of chic lounges and ornate décor pieces that will transform your space into a spectacular event. Whether custom designed or selected from our exclusive inventory, our creative team will help you select the right choice of furnishings for your affair.",
-    main_img: "./images/services/main-img/event-design-decor.jpg",
-  },
-  {
-    link: "floral-design",
-    name: "Floral Design",
-    article_title: "FLORAL DESIGN",
-    article_subheader:
-      "Our experienced team will assist you in selecting the the perfect flowers unique for your event to ensure that your celebration is flawless.",
-    article:
-      "We see flowers as a key component to an event's overall design. Our floral arrangements and design components are thoughtfully crafted and styled to accompany your event's look and feel. Our expertise enables us to provide you with an original style while keeping your event budget in mind. We create beautiful, meaningful floral arrangements that punctuate and enhance special moments.MMEink is proud to offer its clients the very best in floral design. Our in-house design team will customize your special event from concept to completion. Our dedicated team of professionals will make sure that you receive the personalized attention needed on every floral detail to make your event a success. This allows us to work within an event budget, all while fulfilling the client's needs.",
-    main_img: "./images/services/main-img/floral.jpg",
+    main_img: [
+      "./images/services/main-img/event-design-decor.jpg",
+      "./images/services/main-img/floral.jpg",
+    ],
   },
   {
     link: "https://tardiscatering.com/",
@@ -719,7 +769,7 @@ export const services = [
       "Mikey Mike Events offers a wide range of event planning and management services, including the ability the enhance your celebration from simple to spectacular.",
     article:
       "Our team of lighting designers will set the mood and ambiance for your event by guiding you through our selection of lighting services that will achieve your desired goal. Let us assist your in creating an atmosphere that will astound your guests. With a large choice of lighting services to choose from, we have the ability to accommodate your event's budget and needs. Our services range from simple and sophisticated to extravagant and bold.",
-    main_img: "./images/services/main-img/lighting.jpg",
+    main_img: ["./images/services/main-img/lighting.jpg"],
     subheader: [
       {
         icon: "bi bi-lightbulb",
@@ -758,11 +808,11 @@ export const services = [
     article_subheader: "Amaze your guests with talent that delivers!",
     article:
       "We procure top level talent and make it available to you at your event. With a huge roster of talented performers to choose from, we can take your event from ordinary to extraordinary. We provide a variety of performers including magicians, circus-style acts, mentalists, tarot card readers, strolling acts, and much more.",
-    main_img: "./images/services/main-img/performers.jpg",
+    main_img: ["./images/services/main-img/performers.jpg"],
   },
   {
-    link: "entertainment",
-    name: "Musical Entertainment - Games and More",
+    link: "music-entertainment",
+    name: "Musical Entertainment",
     subheader: [
       {
         icon: "bi bi-speaker-fill",
@@ -836,21 +886,41 @@ export const services = [
       "We'll exceed your expectations by delivering a custom tailored entertainment program for your event.",
     article:
       "Our services are extensive, providing you with access to celebrity talent and speakers as well as talented musicians and performers. Let us help you design an event that will exceed your guests' expectations. Whether it is designing an entertainment program to open an event or close one, we will have all the resources you need to deliver an amazing experience for your guests.",
-    main_img: "./images/services/main-img/entertainment.jpg",
+    main_img: ["./images/services/main-img/entertainment.jpg"],
     video_title: "MC ERIC HIGHLIGHT REEL",
     video: "https://player.vimeo.com/video/560010615?dnt=1&app_id=122963",
     video_cover:
       "./images/services/subheader-swiper/musical-entertainment/chrome-capture-2023-2-2.png",
   },
   {
-    link: "lounge-decor",
-    name: "Lounge Decor - Event rentals + Props",
-    article_title: "ENTERTAINMENT SERVICES",
+    link: "lounge-decor-rentals",
+    name: "Lounge Decor & Event Rentals",
+    article_title: "Lounge Decor & Event Rentals SERVICES",
     article_subheader:
       "We'll exceed your expectations by delivering a custom tailored entertainment program for your event.",
     article:
       "Our services are extensive, providing you with access to celebrity talent and speakers as well as talented musicians and performers. Let us help you design an event that will exceed your guests' expectations. Whether it is designing an entertainment program to open an event or close one, we will have all the resources you need to deliver an amazing experience for your guests.",
-    main_img: "./images/services/main-img/entertainment.jpg",
+    main_img: ["./images/services/main-img/entertainment.jpg"],
+  },
+  {
+    link: "novelty-entertainment",
+    name: "Extra Entertainment & Novelty",
+    article_title: "Extra Entertainment & Novelty SERVICES",
+    article_subheader:
+      "We'll exceed your expectations by delivering a custom tailored entertainment program for your event.",
+    article:
+      "Our services are extensive, providing you with access to celebrity talent and speakers as well as talented musicians and performers. Let us help you design an event that will exceed your guests' expectations. Whether it is designing an entertainment program to open an event or close one, we will have all the resources you need to deliver an amazing experience for your guests.",
+    main_img: ["./images/services/main-img/entertainment.jpg"],
+  },
+  {
+    link: "theme-props",
+    name: "Theme Props",
+    article_title: "Theme Props Services",
+    article_subheader:
+      "We'll exceed your expectations by delivering a custom tailored entertainment program for your event.",
+    article:
+      "Our services are extensive, providing you with access to celebrity talent and speakers as well as talented musicians and performers. Let us help you design an event that will exceed your guests' expectations. Whether it is designing an entertainment program to open an event or close one, we will have all the resources you need to deliver an amazing experience for your guests.",
+    main_img: ["./images/services/main-img/entertainment.jpg"],
   },
 ];
 
