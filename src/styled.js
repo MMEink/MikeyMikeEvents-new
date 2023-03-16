@@ -694,6 +694,7 @@ export const SwiperGalleryNav = styled.ul`
       padding: 0.7rem 1rem;
       font-weight: 700;
       text-transform: uppercase;
+      color: #818181;
       i {
         margin-left: 1rem;
         font-size: 15px;
