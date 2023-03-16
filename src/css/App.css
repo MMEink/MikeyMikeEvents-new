@@ -217,6 +217,7 @@ height: 110px;
 
 .navBtns{
   justify-self: flex-end;
+  margin-right: 1rem;
 }
 
 .navBtns button, .navBtns li{
@@ -495,6 +496,10 @@ to{
 
 .footer-icons{
   font-size: 1.5rem;
+}
+
+.footer-contact ul {
+  padding-left: 0rem;
 }
 
 .footerSection h4{

@@ -643,7 +643,7 @@ export const events_swiper = [
         ],
       },
       {
-        name: "event design",
+        name: "event & floral design",
         images: [
           "./images/event-swiper/milestone/Event-Design/transition1.jpg",
           "./images/event-swiper/milestone/Event-Design/transition2.jpg",
@@ -662,7 +662,7 @@ export const events_swiper = [
         images: ["./images/catering.jpg"],
       },
       {
-        name: "rentals",
+        name: "lounge decor & rentals",
         images: [
           "./images/event-swiper/milestone/Rentals/transition.jpg",
           "./images/event-swiper/milestone/Rentals/transition2.jpg",
