@@ -930,8 +930,10 @@ export const BrochureBtn = styled.div`
   display: inline;
   cursor: pointer;
   transition: all 0.25s;
-  &:hover {
-    letter-spacing: 4px;
+  @media all and (min-width: 600px) {
+    &:hover {
+      letter-spacing: 4px;
+    }
   }
   @media all and (max-width: 450px) {
     font-size: 1rem;
