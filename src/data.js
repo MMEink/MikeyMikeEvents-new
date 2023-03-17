@@ -933,10 +933,9 @@ export const services = [
     article:
       "Our services are extensive, providing you with access to celebrity talent and speakers as well as talented musicians and performers. Let us help you design an event that will exceed your guests' expectations. Whether it is designing an entertainment program to open an event or close one, we will have all the resources you need to deliver an amazing experience for your guests.",
     main_img: ["./images/services/main-img/entertainment.jpg"],
-    video_title: "MC ERIC HIGHLIGHT REEL",
+    video_title: "BAT MITZVAH TRAILER",
     video: "https://player.vimeo.com/video/560010615?dnt=1&app_id=122963",
-    video_cover:
-      "./images/services/subheader-swiper/musical-entertainment/chrome-capture-2023-2-2.png",
+    video_cover: "./images/event-swiper/mitzvahs/videocover.png",
   },
   {
     link: "lounge-decor-rentals",
