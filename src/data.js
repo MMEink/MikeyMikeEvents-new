@@ -61,7 +61,7 @@ export const search = [
     name: "performers",
   },
   {
-    link: "lounge-decor",
+    link: "lounge-decor-rentals",
     keywords: "lounge decor - Event rentals",
     name: "lounge decor & Event rentals",
   },
