@@ -1,6 +1,6 @@
 import { Row } from "react-bootstrap";
 import { useState } from "react";
-import SwiperGallerySection from "../SwiperGallerySection";
+import GallerySection from "../GallerySection";
 import VerticalLayout from "../VerticalLayout";
 import FooterView from "../FooterView";
 import "../css/services-aboutuspage.css";
@@ -22,6 +22,9 @@ export default function PerformersView() {
         </Helmet>
         <section className="eventHeader">Performers</section>
         <VerticalLayout data={data} />
+        <section className="servicespg-gallery">
+          <GallerySection gallery={data.gallery} />
+        </section>
         <FooterView />
       </Row>
     </HelmetProvider>

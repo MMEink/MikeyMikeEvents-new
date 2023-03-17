@@ -44,6 +44,7 @@ Most of the images on this website is in this folder except the images of the fl
 2. Styles could be difficult to locate because there is many places but using dev tool in the browser can easily locate them. Element with a non-sense class is the ones created in style.js file. 
 3. I updated the search data with keywords, all keywords put into each section will reflet on its search result. Feel free to add any keywords that is related to the result. 
 4. For data that is only used in one component or page and could not be found in data.js, they could be found on the component itself as the data is not a sharing data. 
+5. If in some scenario you need to change the order of a data related element, just switch the order of the data. No need to touch the code.
 
 ## Available Scripts
 In the project directory, you can run:

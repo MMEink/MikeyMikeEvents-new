@@ -162,6 +162,22 @@ height: 600px;
   justify-content: center;
 }
 
+.eventDecorBtns{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+
+
+.eventDecorBtns a{
+  width: 50%;
+}
+
+.eventDecorBtns a .eventDecorBtn{
+  width: 80%;
+}
+
 .videoPlay i{
 font-size: 3rem;
 color: #007ebd;
@@ -173,6 +189,12 @@ color: #007ebd;
 
 .swiperGallery-image{
   width: 100%;
+}
+
+.servicespg-gallery{
+   width: 80%; 
+   max-width: 1200px;
+  margin: 5rem auto
 }
 
 .swipperGallery-container{
@@ -756,6 +778,20 @@ right: 2rem;
   display: flex;
 }
 
+.eventDecorBtn{
+  width: 53%;
+  margin: auto;
+  box-shadow: 4px 8px 16px 0 rgb(0 0 0 / 30%);
+}
+
+.eventDecorBtn img{
+  width: 100%;
+}
+.eventDecorBtn:hover{
+  transform: scale(1.05);
+
+}
+
 form .btn{
   margin-bottom: 1rem;
 }
@@ -832,7 +868,14 @@ form .btn{
   }
 }
 @media all and (max-width: 600px)  {
+  .eventDecorBtns{
+    flex-direction: column;
+  }
 
+  .eventDecorBtns a{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
   .stf__parent{
     max-width: 400px;
   }

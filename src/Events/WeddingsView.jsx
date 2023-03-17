@@ -29,14 +29,12 @@ export default function WeddingsView() {
         <h2 className="eventSubheader">
           We have all the services you need for your big day
         </h2>
-        <SwiperGallerySection data={data.category} />
-        {data.video && (
-          <VideoSection
-            videoCover={data.video_cover}
-            video={data.video}
-            video_title={data.video_title}
-          />
-        )}
+        <SwiperGallerySection
+          data={data.category}
+          video={data.video}
+          video_name={data.video_title}
+          video_cover={data.video_cover}
+        />
         <section style={{ textAlign: "center", marginTop: "2rem" }}>
           <Link to={"/wedding-brochure"}>
             <BrochureBtn>

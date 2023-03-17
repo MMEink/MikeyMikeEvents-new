@@ -650,7 +650,7 @@ export const SwiperGalleryNav = styled.ul`
   z-index: 3;
   li {
     list-style: none;
-    padding: 0.7rem 1rem;
+    padding: 0.7rem;
     border: 1px solid #007ebd;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;

@@ -27,14 +27,12 @@ export default function Sweet16sView() {
         <h2 className="eventSubheader">
           We have all the services you need for the special day
         </h2>
-        <SwiperGallerySection data={data.category} />
-        {data.video && (
-          <VideoSection
-            videoCover={data.video_cover}
-            video={data.video}
-            video_title={data.video_title}
-          />
-        )}
+        <SwiperGallerySection
+          data={data.category}
+          video={data.video}
+          video_name={data.video_title}
+          video_cover={data.video_cover}
+        />
         <HorizontalLayout data={data} />
         <FooterView />
       </Row>

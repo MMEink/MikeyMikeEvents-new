@@ -25,9 +25,7 @@ export default function LightingView() {
         <section className="eventHeader">Lighting</section>
         <VerticalLayout data={data} />
         <SwiperWizVideos data={data.subheader} />
-        <section
-          style={{ width: "80%", maxWidth: "1200px", margin: "2rem auto" }}
-        >
+        <section className="servicespg-gallery">
           <GallerySection gallery={data.gallery} />
         </section>
 

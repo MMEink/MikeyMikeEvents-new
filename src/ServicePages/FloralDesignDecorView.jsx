@@ -1,6 +1,8 @@
 import { Row } from "react-bootstrap";
 import { useState } from "react";
-import SwiperGallerySection from "../SwiperGallerySection";
+import GallerySection from "../GallerySection";
+import EventDecorBtn from "../EventDecorBtn";
+import EventPropBtn from "../EventPropBtn";
 import VerticalLayout from "../VerticalLayout";
 import FooterView from "../FooterView";
 import "../css/services-aboutuspage.css";
@@ -21,8 +23,15 @@ export default function FloralDesignDecorView() {
             content="Our floral arrangements and design components are thoughtfully crafted and styled to accompany your event's look and feel."
           />
         </Helmet>
-        <section className="eventHeader">Floral Design</section>
+        <section className="eventHeader">Floral Design & Decor</section>
         <VerticalLayout data={data} />
+        <section className="servicespg-gallery">
+          <GallerySection gallery={data.gallery} />
+        </section>
+        <Row className="eventDecorBtns">
+          <EventDecorBtn />
+          <EventPropBtn />
+        </Row>
         <FooterView />
       </Row>
     </HelmetProvider>

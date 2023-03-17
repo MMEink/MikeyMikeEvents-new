@@ -3,6 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Row } from "react-bootstrap";
 import { SwiperGalleryNav } from "./styled";
 import GallerySection from "./GallerySection";
+import VideoSection from "./VideoSection";
+import EventDecorBtn from "./EventDecorBtn";
 //site css imports below
 import "swiper/css";
 import "swiper/css/bundle";
@@ -11,7 +13,12 @@ import "swiper/css/autoplay";
 import "swiper/css/effect-fade";
 import { useState, useEffect } from "react";
 
-export default function SwiperGallerySection({ data }) {
+export default function SwiperGallerySection({
+  data,
+  video,
+  video_name,
+  video_cover,
+}) {
   const [expand, setExpand] = useState(false);
   const [selected_img, setSelectedImg] = useState(data[0].images);
   const [selected_gallery, setSelectedGallery] = useState(data[0].gallery);
@@ -91,6 +98,18 @@ export default function SwiperGallerySection({ data }) {
       {selected !== "catering" && selected_gallery && (
         <GallerySection gallery={selected_gallery} />
       )}
+
+      {selected != "catering" &&
+        selected != "lounge decor & rentals" &&
+        video && (
+          <VideoSection
+            videoCover={video_cover}
+            video={video}
+            video_title={video_name}
+          />
+        )}
+
+      {selected === "lounge decor & rentals" && <EventDecorBtn />}
     </Row>
   );
 }

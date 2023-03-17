@@ -249,7 +249,7 @@ export const events_swiper = [
         ],
       },
       {
-        name: "novelty entertainment",
+        name: "extra entertainment/ Novelty",
         images: [
           "./images/event-swiper/wedding/novelty-entertainment/transition1.jpg",
           "./images/event-swiper/wedding/novelty-entertainment/transition2.jpg",
@@ -374,7 +374,7 @@ export const events_swiper = [
         ],
       },
       {
-        name: "event design",
+        name: "event & floral design",
         images: [
           "./images/event-swiper/mitzvahs/Event-design/transiiton3.jpg",
           "./images/event-swiper/mitzvahs/Event-design/transition1.jpg",
@@ -487,33 +487,40 @@ export const events_swiper = [
       {
         name: "planning",
         images: [
-          "./images/event-swiper/sweet16s/planning/transition-planning-2.jpg",
-          "./images/event-swiper/sweet16s/planning/transition-planning-3-2.jpg",
-          "./images/event-swiper/sweet16s/planning/transition-planning-4.jpg",
+          "./images/event-swiper/sweet16s/planning/transition1-1.jpg",
+          "./images/event-swiper/sweet16s/planning/transition2-2.jpg",
+          "./images/event-swiper/sweet16s/planning/transition3.jpg",
+          "./images/event-swiper/sweet16s/planning/transition4.jpg",
         ],
         describe:
           "Mike Mike Events is proud to offer its clients the very best in Event Décor and Furniture Rentals. Whether it is from our catalog or something custom designed to fit your teen's personality, we can make any Sweet 16 a unique experience. Combined with the right décor, lighting, and creative vision, our rentals mold your venue into exactly how you want it to appear for your teen and guests. Truly, it will be dreaming with your eyes open, as our rentals put the finishing touches on their Sweet 16 fantasy party.",
         gallery: [
-          "./images/event-swiper/sweet16s/planning/static-planning1.jpg",
-          "./images/event-swiper/sweet16s/planning/static-planning2.jpg",
-          "./images/event-swiper/sweet16s/planning/static-planning3.jpg",
+          "./images/event-swiper/sweet16s/planning/static1.jpg",
+          "./images/event-swiper/sweet16s/planning/static2.jpg",
+          "./images/event-swiper/sweet16s/planning/static3.jpg",
+          "./images/event-swiper/sweet16s/planning/static4.jpg",
+          "./images/event-swiper/sweet16s/planning/static5.jpg",
+          "./images/event-swiper/sweet16s/planning/static6.jpg",
         ],
       },
       {
         name: "music entertainment",
         images: [
-          "./images/event-swiper/sweet16s/Music-entertainment/transition-dj.jpg",
-          "./images/event-swiper/sweet16s/Music-entertainment/transition-entertainment-2.jpg",
-          "./images/event-swiper/sweet16s/Music-entertainment/transition-entertainment1-2.jpg",
-          "./images/event-swiper/sweet16s/Music-entertainment/transition-singer1.jpg",
+          "./images/event-swiper/sweet16s/Music-entertainment/transition-1.jpg",
+          "./images/event-swiper/sweet16s/Music-entertainment/transition-2.jpg",
+          "./images/event-swiper/sweet16s/Music-entertainment/transition-3.jpg",
+          "./images/event-swiper/sweet16s/Music-entertainment/transition-4-2.jpg",
         ],
         describe:
           "Mikey Mike Events knows how to throw a party. Our skills and experience organizing very large affairs for various organizations means that we know how to make your Sweet 16 feel like more than a birthday party. We can take tradition or extravagance to the next level and deliver a musical experience unlike any other. Whether it is Hip Hop, Rock, Pop, Dance, EDM, or a mixture of many styles, we'll give your party the sound it needs. We can combine DJs with live music and the most charismatic of MCs to turn up the celebration to unforgettable levels. Your child can even be the star with a performance of their own, or perhaps you can surprise them with a celebrity performer.",
         gallery: [
+          "./images/event-swiper/sweet16s/Music-entertainment/static-band.jpg",
           "./images/event-swiper/sweet16s/Music-entertainment/static-dj.jpg",
-          "./images/event-swiper/sweet16s/Music-entertainment/static-dj2.jpg",
-          "./images/event-swiper/sweet16s/Music-entertainment/static-singer.jpg",
+          "./images/event-swiper/sweet16s/Music-entertainment/static-planning1.jpg",
           "./images/event-swiper/sweet16s/Music-entertainment/static-violin1.jpg",
+          "./images/event-swiper/sweet16s/Music-entertainment/static.jpg",
+          "./images/event-swiper/sweet16s/Music-entertainment/static2.jpg",
+          "./images/event-swiper/sweet16s/Music-entertainment/static3.jpg",
         ],
       },
       {
@@ -527,48 +534,32 @@ export const events_swiper = [
           "Lighting designers at Mikey Mike Events know how to create mood and ambience, and when given creative direction from our event planners, they can ensure that your Sweet 16 has a unique visual style. We can make your child a brand for the night and feature their name in lights, accent the décor, or pump alongside the music to make the night a visual journey. Our lighting services include: Ambient Lighting, Pin Lighting, Up Lighting, Personalized Monograms, Intelligent Lighting, LED Lighting, and Laser Light shows.",
         gallery: [
           "./images/event-swiper/sweet16s/Lighting/static-light.jpg",
-          "./images/event-swiper/sweet16s/Lighting/static-light2.jpg",
-          "./images/event-swiper/sweet16s/Lighting/static-light3.jpg",
           "./images/event-swiper/sweet16s/Lighting/static-light4.jpg",
           "./images/event-swiper/sweet16s/Lighting/static-light5.jpg",
+          "./images/event-swiper/sweet16s/Lighting/static2-edit.jpg",
+          "./images/event-swiper/sweet16s/Lighting/static4.jpg",
+          "./images/event-swiper/sweet16s/Lighting/static8.jpg",
+          "./images/event-swiper/sweet16s/Lighting/static9.jpg",
         ],
       },
       {
-        name: "novelty entertainment",
+        name: "event & floral design",
         images: [
-          "./images/event-swiper/sweet16s/Novelty-entertainment/transition-photobooth-edit.jpg",
-          "./images/event-swiper/sweet16s/Novelty-entertainment/transition-photobooth4.jpg",
-          "./images/event-swiper/sweet16s/Novelty-entertainment/trumpets-transition.jpg",
-        ],
-        describe:
-          "Make the Sweet 16 memorable by enhancing the experience with a show or persistent performance. Whether it is dancers, singers, or visual artists, Mikey Mike Events has the resources to design the perfect supplementary entertainment to your music. This will truly make your Sweet 16 unique.",
-        gallery: [
-          "./images/event-swiper/sweet16s/Novelty-entertainment/character-drawer.jpg",
-          "./images/event-swiper/sweet16s/Novelty-entertainment/leather-bracelet.jpg",
-          "./images/event-swiper/sweet16s/Novelty-entertainment/static-photobooth.jpg",
-          "./images/event-swiper/sweet16s/Novelty-entertainment/static-photobooth2.jpg",
-          "./images/event-swiper/sweet16s/Novelty-entertainment/static-photobooth3.jpg",
-          "./images/event-swiper/sweet16s/Novelty-entertainment/static-photobooth4.jpg",
-          "./images/event-swiper/sweet16s/Novelty-entertainment/static-photobooth5.jpg",
-          "./images/event-swiper/sweet16s/Novelty-entertainment/static-photobooth6.jpg",
-          "./images/event-swiper/sweet16s/Novelty-entertainment/static-rental5.jpg",
-        ],
-      },
-      {
-        name: "event design",
-        images: [
-          "./images/event-swiper/sweet16s/Event Design/transition-1-2.jpg",
-          "./images/event-swiper/sweet16s/Event Design/transition-design2-2.jpg",
-          "./images/event-swiper/sweet16s/Event Design/transition-design3.jpg",
-          "./images/event-swiper/sweet16s/Event Design/transition-design4.jpg",
+          "./images/event-swiper/sweet16s/Event-Design/transition-1-2.jpg",
+          "./images/event-swiper/sweet16s/Event-Design/transition-design2-2.jpg",
+          "./images/event-swiper/sweet16s/Event-Design/transition-design3.jpg",
+          "./images/event-swiper/sweet16s/Event-Design/transition-design4.jpg",
+          "./images/event-swiper/sweet16s/Event-Design/transition1.jpg",
         ],
         describe:
           "Mikey Mike Events specializes in creating a unique experience at every event, and Sweet 16s have the distinction of being some of the most unique affairs we can put on. We can design an event around your creative vision, come up with one of our own, and align that vision to the personality of your child. We bring all of the elements of the party together in a unified form and theme that fits within your budget.",
         gallery: [
-          "./images/event-swiper/sweet16s/Event Design/static-design.jpg",
-          "./images/event-swiper/sweet16s/Event Design/static-design2.jpg",
-          "./images/event-swiper/sweet16s/Event Design/static-design3.jpg",
-          "./images/event-swiper/sweet16s/Event Design/static-design5.jpg",
+          "./images/event-swiper/sweet16s/Event-Design/static-design.jpg",
+          "./images/event-swiper/sweet16s/Event-Design/static-design2.jpg",
+          "./images/event-swiper/sweet16s/Event-Design/static-design5.jpg",
+          "./images/event-swiper/sweet16s/Event-Design/static2.jpg",
+          "./images/event-swiper/sweet16s/Event-Design/static6.jpg",
+          "./images/event-swiper/sweet16s/Event-Design/static8.jpg",
         ],
       },
       {
@@ -576,21 +567,49 @@ export const events_swiper = [
         images: ["./images/catering.jpg"],
       },
       {
-        name: "rentals",
+        name: "lounge decor & rentals",
         images: [
           "./images/event-swiper/sweet16s/Rentals/transition-rental.JPG",
           "./images/event-swiper/sweet16s/Rentals/transition-rental2.jpg",
-          "./images/event-swiper/sweet16s/Rentals/transition-rental3.jpg",
           "./images/event-swiper/sweet16s/Rentals/transition-rental5.jpg",
+          "./images/event-swiper/sweet16s/Rentals/transition3.jpg",
         ],
         describe:
           "Mikey Mike Events is proud to offer its clients the very best in Event Décor and Furniture Rentals. Whether it is from our catalog or something custom designed to fit your teen's personality, we can make any Sweet 16 a unique experience. Combined with the right décor, lighting, and creative vision, our rentals mold your venue into exactly how you want it to appear for your teen and guests. Truly, it will be dreaming with your eyes open, as our rentals put the finishing touches on their Sweet 16 fantasy party.",
         gallery: [
-          "./images/event-swiper/sweet16s/Rentals/static-design-2.jpg",
-          "./images/event-swiper/sweet16s/Rentals/static-rental.jpg",
+          "./images/event-swiper/sweet16s/Rentals/static-artistry.jpg",
+          "./images/event-swiper/sweet16s/Rentals/static-lighting1.jpg",
+          "./images/event-swiper/sweet16s/Rentals/static-rental2.JPG",
           "./images/event-swiper/sweet16s/Rentals/static-rental6.JPG",
           "./images/event-swiper/sweet16s/Rentals/static-rental7.JPG",
           "./images/event-swiper/sweet16s/Rentals/static-rental8.JPG",
+          "./images/event-swiper/sweet16s/Rentals/static5.jpg",
+          "./images/event-swiper/sweet16s/Rentals/static9.jpg",
+          "./images/event-swiper/sweet16s/Rentals/static11.jpg",
+        ],
+      },
+      {
+        name: "extra entertainment/ Novelty",
+        images: [
+          "./images/event-swiper/sweet16s/Novelty-entertainment/transition-photobooth-edit.jpg",
+          "./images/event-swiper/sweet16s/Novelty-entertainment/transition-photobooth4.jpg",
+          "./images/event-swiper/sweet16s/Novelty-entertainment/transition1.jpg",
+          "./images/event-swiper/sweet16s/Novelty-entertainment/trumpets-transition.jpg",
+        ],
+        describe:
+          "Make the Sweet 16 memorable by enhancing the experience with a show or persistent performance. Whether it is dancers, singers, or visual artists, Mikey Mike Events has the resources to design the perfect supplementary entertainment to your music. This will truly make your Sweet 16 unique.",
+        gallery: [
+          "./images/event-swiper/sweet16s/Novelty-entertainment/static-novelty18.jpg",
+          "./images/event-swiper/sweet16s/Novelty-entertainment/static-novelty19.JPG",
+          "./images/event-swiper/sweet16s/Novelty-entertainment/static-photobooth.jpg",
+          "./images/event-swiper/sweet16s/Novelty-entertainment/static-photobooth2.jpg",
+          "./images/event-swiper/sweet16s/Novelty-entertainment/static-photobooth5.jpg",
+          "./images/event-swiper/sweet16s/Novelty-entertainment/static1.jpg",
+          "./images/event-swiper/sweet16s/Novelty-entertainment/static2.jpg",
+          "./images/event-swiper/sweet16s/Novelty-entertainment/static10.jpg",
+          "./images/event-swiper/sweet16s/Novelty-entertainment/static15.jpg",
+          "./images/event-swiper/sweet16s/Novelty-entertainment/static16.jpg",
+          "./images/event-swiper/sweet16s/Novelty-entertainment/static17.jpg",
         ],
       },
     ],
@@ -712,7 +731,7 @@ export const events_swiper = [
         ],
       },
       {
-        name: "novelty entertainment",
+        name: "extra entertainment/ Novelty",
         images: [
           "./images/event-swiper/wedding/novelty-entertainment/transition1.jpg",
           "./images/event-swiper/wedding/novelty-entertainment/transition2.jpg",
@@ -756,6 +775,16 @@ export const services = [
       "./images/services/main-img/event-design-decor.jpg",
       "./images/services/main-img/floral.jpg",
     ],
+    gallery: [
+      "./images/services/gallery/floral-design-decor/static-design2.jpg",
+      "./images/services/gallery/floral-design-decor/static-floral2.jpg",
+      "./images/services/gallery/floral-design-decor/static.jpg",
+      "./images/services/gallery/floral-design-decor/static3-1.jpg",
+      "./images/services/gallery/floral-design-decor/static3-3.jpg",
+      "./images/services/gallery/floral-design-decor/static3-6.jpg",
+      "./images/services/gallery/floral-design-decor/static5.jpg",
+      "./images/services/gallery/floral-design-decor/static7.jpg",
+    ],
   },
   {
     link: "https://tardiscatering.com/",
@@ -769,7 +798,10 @@ export const services = [
       "Mikey Mike Events offers a wide range of event planning and management services, including the ability the enhance your celebration from simple to spectacular.",
     article:
       "Our team of lighting designers will set the mood and ambiance for your event by guiding you through our selection of lighting services that will achieve your desired goal. Let us assist your in creating an atmosphere that will astound your guests. With a large choice of lighting services to choose from, we have the ability to accommodate your event's budget and needs. Our services range from simple and sophisticated to extravagant and bold.",
-    main_img: ["./images/services/main-img/lighting.jpg"],
+    main_img: [
+      "./images/services/main-img/Lighting/transition1.jpg",
+      "./images/services/main-img/Lighting/transition2.jpg",
+    ],
     subheader: [
       {
         icon: "bi bi-lightbulb",
@@ -791,14 +823,14 @@ export const services = [
       },
     ],
     gallery: [
-      "./images/services/gallery/lighting/DSC_0615.jpg",
-      "./images/services/gallery/lighting/InVision_0105.jpg",
       "./images/services/gallery/lighting/InVision_135.jpg",
-      "./images/services/gallery/lighting/WedGal21-19.jpg",
       "./images/services/gallery/lighting/WedGal21-35.jpg",
-      "./images/services/gallery/lighting/WedGal21-39.jpg",
       "./images/services/gallery/lighting/WedGal21-58.jpg",
       "./images/services/gallery/lighting/wedrent-gal-2.jpg",
+      "./images/services/gallery/lighting/static-bogo1.jpg",
+      "./images/services/gallery/lighting/static-lighting2.jpg",
+      "./images/services/gallery/lighting/static8.jpg",
+      "./images/services/gallery/lighting/static9.jpg",
     ],
   },
   {
@@ -808,7 +840,21 @@ export const services = [
     article_subheader: "Amaze your guests with talent that delivers!",
     article:
       "We procure top level talent and make it available to you at your event. With a huge roster of talented performers to choose from, we can take your event from ordinary to extraordinary. We provide a variety of performers including magicians, circus-style acts, mentalists, tarot card readers, strolling acts, and much more.",
-    main_img: ["./images/services/main-img/performers.jpg"],
+    main_img: [
+      "./images/services/main-img/performers/transition1.jpg",
+      "./images/services/main-img/performers/transition2.jpg",
+      "./images/services/main-img/performers/transition3.jpg",
+    ],
+    gallery: [
+      "./images/services/gallery/performers/static2.jpg",
+      "./images/services/gallery/performers/static3.jpg",
+      "./images/services/gallery/performers/static5.jpg",
+      "./images/services/gallery/performers/static6.jpg",
+      "./images/services/gallery/performers/static7.jpg",
+      "./images/services/gallery/performers/static14.jpg",
+      "./images/services/gallery/performers/static15.jpg",
+      "./images/services/gallery/performers/static18.jpg",
+    ],
   },
   {
     link: "music-entertainment",
