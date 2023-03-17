@@ -1,7 +1,9 @@
 import { Row } from "react-bootstrap";
 import { useState } from "react";
-import SwiperGallerySection from "../SwiperGallerySection";
+import GallerySection from "../GallerySection";
 import VerticalLayout from "../VerticalLayout";
+import EventDecorBtn from "../EventDecorBtn";
+import EventPropBtn from "../EventPropBtn";
 import FooterView from "../FooterView";
 import "../css/services-aboutuspage.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -23,6 +25,13 @@ export default function LoungeDecorView() {
         </Helmet>
         <section className="eventHeader">Lounge Decor & Event Rentals</section>
         <VerticalLayout data={data} />
+        <section className="servicespg-gallery">
+          <GallerySection gallery={data.gallery} />
+        </section>
+        <Row className="eventDecorBtns">
+          <EventDecorBtn />
+          <EventPropBtn />
+        </Row>
         <FooterView />
       </Row>
     </HelmetProvider>

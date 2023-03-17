@@ -1,6 +1,7 @@
 import { Row } from "react-bootstrap";
 import { useState } from "react";
-import SwiperGallerySection from "../SwiperGallerySection";
+import EventInteractiveBtn from "../EventInteractiveBtn";
+import GallerySection from "../GallerySection";
 import VerticalLayout from "../VerticalLayout";
 import FooterView from "../FooterView";
 import "../css/services-aboutuspage.css";
@@ -23,6 +24,12 @@ export default function NoveltyView() {
         </Helmet>
         <section className="eventHeader">Extra Entertainment & Novelty</section>
         <VerticalLayout data={data} />
+        <section className="servicespg-gallery">
+          <GallerySection gallery={data.gallery} />
+        </section>
+        <Row className="eventDecorBtns" style={{ justifyContent: "center" }}>
+          <EventInteractiveBtn />
+        </Row>
         <FooterView />
       </Row>
     </HelmetProvider>

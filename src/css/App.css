@@ -165,7 +165,7 @@ height: 600px;
 .eventDecorBtns{
   display: flex;
   width: 80%;
-  margin: auto;
+  margin: 0 auto 3rem;
   max-width: 1200px;
 }
 
@@ -195,7 +195,7 @@ color: #007ebd;
 .servicespg-gallery{
    width: 80%; 
    max-width: 1200px;
-  margin: 5rem auto
+  margin: 5rem auto 3rem
 }
 
 .swipperGallery-container{
@@ -300,10 +300,12 @@ form .btn{
 }
 
 .swiper-wrapper{
-  padding-bottom: 5rem;
   top:24px
 }
 
+.swiperGallery-wrapper{
+  margin-bottom: 5rem;
+}
 .slogan{
   position: absolute;
   color: #fff;

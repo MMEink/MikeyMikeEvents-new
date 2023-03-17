@@ -772,8 +772,8 @@ export const services = [
     article:
       "The design team at MMEink will help you customize your special event from concept to completion. Our rental inventory includes a variety of chic lounges and ornate décor pieces that will transform your space into a spectacular event. Whether custom designed or selected from our exclusive inventory, our creative team will help you select the right choice of furnishings for your affair.",
     main_img: [
-      "./images/services/main-img/event-design-decor.jpg",
-      "./images/services/main-img/floral.jpg",
+      "./images/services/main-img/floral-design-decor/transition-design4.jpg",
+      "./images/services/main-img/floral-design-decor/transition-milestone2.JPG",
     ],
     gallery: [
       "./images/services/gallery/floral-design-decor/static-design2.jpg",
@@ -864,32 +864,12 @@ export const services = [
         icon: "bi bi-speaker-fill",
         name: "DJ Entertainment",
         image: [
-          "./images/services/subheader-swiper/musical-entertainment/dj-tab-pic.jpg",
+          "./images/services/main-img/music-entertainment/transitionDJ.jpg",
+          "./images/services/main-img/music-entertainment/transitionDJ2.jpg",
         ],
         describe:
           "Our highly talented DJs are experts at performing live to a diverse crowd and in playing a variety of musical genres. Looking for a fun upbeat vibe? No problem, let us create it for you live at your event. Our DJs are masters at delivering the best in top 40's, classics, hip hop, and EDM. We can even provide you with one of our talented Masters of Ceremonies to host the special day.",
         gallery: [],
-      },
-      {
-        icon: "bi bi-emoji-smile",
-        name: "Novelty Entertainment",
-        image: [
-          "./images/services/subheader-swiper/musical-entertainment/novelty.jpg",
-        ],
-        describe:
-          "We can help you select the right choice in specialty entertainment for your next affair. We offer a huge selection of interactive gaming for you to choose from. Our services provide you with the very best in casino equipment, photo activities, carnival games, arcade and virtual gaming, and much more. Let us help you select the perfect choice in gaming for your event.",
-        gallery: [],
-      },
-      {
-        icon: "bi bi-people-fill",
-        name: "Talented Performers",
-        image: [
-          "./images/services/subheader-swiper/musical-entertainment/performer-tab.jpg",
-        ],
-        describe:
-          "We procure top level talent and make it available to you at your event. With a huge roster of talented performers to choose from, we can take your event from ordinary to extraordinary. We provide a variety of performers including magicians, circus style acts, mentalists, tarot card readers, strolling acts, and much more.",
-        gallery: [],
-        link: "/performers",
       },
     ],
     category: [
@@ -897,14 +877,15 @@ export const services = [
         icon: "bi bi-emoji-smile",
         name: "MME LIVE",
         image: [
-          "./images/services/category/musical-entertainment/mme-live.jpg",
+          "./images/services/main-img/music-entertainment/transition-mmelive.jpg",
+          "./images/services/main-img/music-entertainment/transition-mmelive2.jpg",
         ],
         describe:
           "The best thing about MMElive is the variety of options you have for your cocktail hour. Whether you need live musicians, a keyboardist, a saxophone players, a steel drummer, or a DJ we have you covered. Most cocktail hours provide drinks, food and music, but MMElive will provide the best cocktail hour entertainment with live bands, DJ’s, and everything you need.",
       },
       {
         name: "JAZZ",
-        video: ["https://player.vimeo.com/video/803984839?h=fcdb7c2c04"],
+        video: ["https://player.vimeo.com/video/58670010"],
       },
       {
         name: "KEYBOARD",
@@ -920,11 +901,11 @@ export const services = [
       },
       {
         name: "PERCUSSIONS",
-        video: ["https://player.vimeo.com/video/803988475?h=b140773cd3"],
+        video: ["https://player.vimeo.com/video/58670006"],
       },
       {
         name: "ELECTRIC VIOLINIST",
-        video: ["https://player.vimeo.com/video/803979420?h=06878d5a6c"],
+        video: ["https://player.vimeo.com/video/58670729"],
       },
     ],
     article_title: "ENTERTAINMENT SERVICES",
@@ -932,10 +913,21 @@ export const services = [
       "We'll exceed your expectations by delivering a custom tailored entertainment program for your event.",
     article:
       "Our services are extensive, providing you with access to celebrity talent and speakers as well as talented musicians and performers. Let us help you design an event that will exceed your guests' expectations. Whether it is designing an entertainment program to open an event or close one, we will have all the resources you need to deliver an amazing experience for your guests.",
-    main_img: ["./images/services/main-img/entertainment.jpg"],
-    video_title: "BAT MITZVAH TRAILER",
-    video: "https://player.vimeo.com/video/560010615?dnt=1&app_id=122963",
-    video_cover: "./images/event-swiper/mitzvahs/videocover.png",
+    main_img: [
+      "./images/services/main-img/music-entertainment/transition1header.jpg",
+      "./images/services/main-img/music-entertainment/transition2header.jpg",
+      "./images/services/main-img/music-entertainment/transition3header.jpg",
+    ],
+    gallery: [
+      "./images/services/gallery/music-entertainmen/guitar-static.jpg",
+      "./images/services/gallery/music-entertainmen/harp-static.jpg",
+      "./images/services/gallery/music-entertainmen/static-band.jpg",
+      "./images/services/gallery/music-entertainmen/static-violin.jpg",
+      "./images/services/gallery/music-entertainmen/static1.jpg",
+      "./images/services/gallery/music-entertainmen/static2.jpg",
+      "./images/services/gallery/music-entertainmen/static3.jpg",
+      "./images/services/gallery/music-entertainmen/static4.jpg",
+    ],
   },
   {
     link: "lounge-decor-rentals",
@@ -945,7 +937,22 @@ export const services = [
       "We'll exceed your expectations by delivering a custom tailored entertainment program for your event.",
     article:
       "Our services are extensive, providing you with access to celebrity talent and speakers as well as talented musicians and performers. Let us help you design an event that will exceed your guests' expectations. Whether it is designing an entertainment program to open an event or close one, we will have all the resources you need to deliver an amazing experience for your guests.",
-    main_img: ["./images/services/main-img/entertainment.jpg"],
+    main_img: [
+      "./images/services/main-img/lounge-decor-rental/transition1.jpg",
+      "./images/services/main-img/lounge-decor-rental/transition2.jpg",
+      "./images/services/main-img/lounge-decor-rental/transition3.jpg",
+    ],
+    gallery: [
+      "./images/services/gallery/lounge-decor-rental/static1.jpg",
+      "./images/services/gallery/lounge-decor-rental/static2.jpg",
+      "./images/services/gallery/lounge-decor-rental/static3.jpg",
+      "./images/services/gallery/lounge-decor-rental/static4.JPG",
+      "./images/services/gallery/lounge-decor-rental/static5.jpg",
+      "./images/services/gallery/lounge-decor-rental/static7.jpg",
+      "./images/services/gallery/lounge-decor-rental/static9.jpg",
+      "./images/services/gallery/lounge-decor-rental/static10.jpg",
+      "./images/services/gallery/lounge-decor-rental/static11.JPG",
+    ],
   },
   {
     link: "novelty-entertainment",
@@ -955,7 +962,25 @@ export const services = [
       "We'll exceed your expectations by delivering a custom tailored entertainment program for your event.",
     article:
       "Our services are extensive, providing you with access to celebrity talent and speakers as well as talented musicians and performers. Let us help you design an event that will exceed your guests' expectations. Whether it is designing an entertainment program to open an event or close one, we will have all the resources you need to deliver an amazing experience for your guests.",
-    main_img: ["./images/services/main-img/entertainment.jpg"],
+    main_img: [
+      "./images/services/main-img/novelty/transition1.jpg",
+      "./images/services/main-img/novelty/transition2.jpg",
+      "./images/services/main-img/novelty/transition3.jpg",
+    ],
+    gallery: [
+      "./images/services/gallery/novelty/static1.jpg",
+      "./images/services/gallery/novelty/static2.jpg",
+      "./images/services/gallery/novelty/static3.jpg",
+      "./images/services/gallery/novelty/static4.jpg",
+      "./images/services/gallery/novelty/static5.jpg",
+      "./images/services/gallery/novelty/static6.jpg",
+      "./images/services/gallery/novelty/static8.jpg",
+      "./images/services/gallery/novelty/static10.jpg",
+      "./images/services/gallery/novelty/static11.jpg",
+      "./images/services/gallery/novelty/static15.jpg",
+      "./images/services/gallery/novelty/static16.jpg",
+      "./images/services/gallery/novelty/static24.jpg",
+    ],
   },
   {
     link: "theme-props",
@@ -965,7 +990,21 @@ export const services = [
       "We'll exceed your expectations by delivering a custom tailored entertainment program for your event.",
     article:
       "Our services are extensive, providing you with access to celebrity talent and speakers as well as talented musicians and performers. Let us help you design an event that will exceed your guests' expectations. Whether it is designing an entertainment program to open an event or close one, we will have all the resources you need to deliver an amazing experience for your guests.",
-    main_img: ["./images/services/main-img/entertainment.jpg"],
+    main_img: [
+      "./images/services/main-img/theme-prop/transition1.jpg",
+      "./images/services/main-img/theme-prop/transition2.jpg",
+      "./images/services/main-img/theme-prop/transition3.jpg",
+    ],
+    gallery: [
+      "./images/services/gallery/theme-prop/static1.jpg",
+      "./images/services/gallery/theme-prop/static2.jpg",
+      "./images/services/gallery/theme-prop/static3.jpg",
+      "./images/services/gallery/theme-prop/static4.jpg",
+      "./images/services/gallery/theme-prop/static5.jpg",
+      "./images/services/gallery/theme-prop/static6.jpg",
+      "./images/services/gallery/theme-prop/static7.jpg",
+      "./images/services/gallery/theme-prop/static8.jpg",
+    ],
   },
 ];
 
