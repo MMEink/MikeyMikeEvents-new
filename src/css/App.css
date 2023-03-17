@@ -1116,7 +1116,7 @@ form .btn{
     }
 
     .main-nav{
-      grid-template-columns: 63% 1fr;
+      grid-template-columns: 55% 1fr;
       margin-top: 1rem;
     }
     
