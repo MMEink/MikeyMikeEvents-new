@@ -489,7 +489,7 @@ export const ModalCloseBtn = styled.button`
   }
 
   @media all and (max-width: 600px) {
-    right: 25px;
+    right: 50px;
   }
 `;
 

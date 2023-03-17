@@ -166,6 +166,7 @@ height: 600px;
   display: flex;
   width: 80%;
   margin: auto;
+  max-width: 1200px;
 }
 
 
