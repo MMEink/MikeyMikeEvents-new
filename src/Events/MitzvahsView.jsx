@@ -18,10 +18,10 @@ export default function MitzvahsView() {
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>Bar & Bat Mitzvahs - Mikey Mike Events</title>
+          <title>Bar & Bat Mitzvah Event Planning Services in New York and Florida | Mikey Mike Events</title>
           <meta
             name="description"
-            content="Plan your Bar & Bat Mitzvah with Mikey Mike Events. Our experienced party planning team will guide you in developing a Mitzvah."
+            content="Our seasoned team of event planners have nearly three decades of experience producing amazing Bar & Bat Mitzvahs. We will assist you in creating an event that is designed to fit your needs while keeping your budget in mind."
           />
         </Helmet>
 
@@ -36,9 +36,9 @@ export default function MitzvahsView() {
           video_cover={data.video_cover}
         />
         <section style={{ textAlign: "center", marginTop: "2rem" }}>
-          <Link to={"/mitzvahs-brochure"}>
+          <Link to={"/mitzvah-brochure.html"} target={"_blank"}>
             <BrochureBtn>
-              Click To View Our Mitzvahs Brochure <i class="bi bi-book"></i>
+              Click To View Our Bar & Bat Mitzvah Brochure <i class="bi bi-book"></i>
             </BrochureBtn>
           </Link>
         </section>

@@ -332,12 +332,12 @@ export default function NavbarView() {
                 <DropdownContainer>
                   <div>
                     <ul>
-                      <Link to={"/"}>
+                      <Link to={"/contact"}>
                         <li>New York</li>
                       </Link>
-                      <a href="https://www.mmeinksouth.com/">
-                        <li>Miami</li>
-                      </a>
+                      <Link to={"/contact"}>
+                        <li>Florida</li>
+                      </Link>
                     </ul>
                   </div>
                 </DropdownContainer>

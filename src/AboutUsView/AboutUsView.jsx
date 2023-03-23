@@ -11,10 +11,10 @@ export default function AboutUsView() {
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>About Us - Mikey Mike Events</title>
+          <title>Professional Event Planning Agency - Mikey Mike Events</title>
           <meta
             name="description"
-            content="With over 20 years in the industry Mikey Mike Events is there to provide you with all of your social event needs."
+            content="With over 25 years in the industry Mikey Mike Events is there to provide you with all of your social event plannig needs in New York and Miami."
           />
         </Helmet>
         <section className="eventHeader">About Us</section>

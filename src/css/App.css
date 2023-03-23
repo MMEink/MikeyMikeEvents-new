@@ -111,7 +111,6 @@ color: red;
 }
 
 .contactSwiper{
-  margin-top: 2rem;
 width: 375px;
 height: 600px;
 }
@@ -250,7 +249,7 @@ height: 110px;
 
 .navBtns{
   justify-self: flex-end;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 
 .navBtns button, .navBtns li{
@@ -311,12 +310,13 @@ form .btn{
   color: #fff;
   z-index: 9999;
   letter-spacing: 0.2rem;
-  top: 5%;
+  top: 10%;
   left: 0;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 
 }
 
@@ -455,7 +455,7 @@ to{
 }
 .aboutusSection{
   margin: 4rem auto;
-
+  text-align: center;
 }
 
 .aboutUs div,.formContainer .contactInfo, .formContainer form{
@@ -567,6 +567,18 @@ h3{
   font-size: 2rem;
   font-weight: 800;
   
+}
+
+h3.provideservice{
+  font-size: 2rem;
+  color: #007ebd;
+  margin-bottom: 30px;
+}
+
+@media all and (max-width: 1000px)  {
+  h3.provideservice{
+    font-size: 1.5rem;
+  }
 }
 
 .services{
@@ -688,6 +700,14 @@ font-size: 1.7rem;
   color: #545457;
 }
 
+.address {
+  margin-bottom: 20px;
+}
+
+.address span {
+  font-size: 2rem;
+  color: #007ebd;
+}
 
 .contactInfo h5{
   margin-top: 1rem;
@@ -722,7 +742,7 @@ form{
 
 form h3, .contactInfo h3{
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -1197,6 +1217,7 @@ form .btn{
     width: 100%;
     right: 0px;
     justify-content: center;
+    margin-right: 0rem;
     }
 
     .contactBtn{

@@ -21,11 +21,6 @@ export default function LogoSection() {
       url: "https://www.thestudiosevents.com/",
     },
     {
-      name: "tardis",
-      img: "./images/logos/Logo-final.png",
-      url: "https://tardiscatering.com/",
-    },
-    {
       name: "williamsburg",
       img: "./images/logos/opera-house-logo.png",
       url: "https://www.williamsburgoperahouse.com/",
@@ -55,15 +50,20 @@ export default function LogoSection() {
       img: "./images/logos/terminal-logo12.jpg",
       url: "https://www.brooklynterminalevents.com/",
     },
+    {
+      name: "tardis",
+      img: "./images/logos/michaels.png",
+      url: "/",
+    },
   ];
   return (
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>Venues - Mikey Mike Events</title>
+          <title>Exclusive Venues for Your Next Event | Mikey Mike Events</title>
           <meta
             name="description"
-            content="Our experienced team of event planners and designers will help you plan and orchestrate your Wedding from start to finish."
+            content="Our experienced team of event planners and designers will help you plan and orchestrate your celebration from start to finish."
           />
         </Helmet>
 

@@ -477,7 +477,7 @@ export const events_swiper = [
     article_subheader:
       "When planning to celebrate your child's transition into adulthood, there is only one way to do it: the right way.",
     article:
-      "Such a special day requires a great deal of planning and we are up to the task. Our seasoned team of planners have over two decades of experience in producing Bar & Bat Mitzvah events. We will assist you in creating an event that is designed to fit your needs while keeping your budget in mind. Providing you with the latest and greatest in Décor, Musical Entertainment, and Production Services, we don't just follow the trends, we help to create them. Partner with us in making your child a trend-setter on their journey into adulthood.",
+      "Such a special day requires a great deal of planning and we are up to the task. Our seasoned team of event planners have nearly three decades of experience in producing Bar & Bat Mitzvahs. We will assist you in creating an event that is designed to fit your needs while keeping your budget in mind. Providing you with the latest and greatest in Décor, Musical Entertainment, and Production Services, we don't just follow the trends, we help to create them. Partner with us in making your child a trend-setter on their journey into adulthood.",
     main_img: "./images/event-swiper/mitzvahs/mitvah-main.jpg",
   },
   //Event Category break line************************

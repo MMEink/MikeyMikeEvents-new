@@ -8,7 +8,8 @@ export default function AboutUsSection() {
   const [clicked, setClicked] = useState("");
   return (
     <Row className="aboutusSection" id="aboutUs">
-      <h2>Let's start planning your event!</h2>
+      <h2>Let's Start Planning Your Event</h2>
+      <h3 class="provideservice">Providing Services in New York and Florida</h3>
       <section className="flip-section">
         {homepageIntro.map((flip, i) => (
           <div
@@ -36,6 +37,7 @@ export default function AboutUsSection() {
           </div>
         ))}
       </section>
+      
     </Row>
   );
 }

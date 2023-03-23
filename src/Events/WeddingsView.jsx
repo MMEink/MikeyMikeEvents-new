@@ -18,10 +18,10 @@ export default function WeddingsView() {
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>Weddings - Mikey Mike Events</title>
+          <title>Wedding Planning Services in New York & Florida | Mikey Mike Events</title>
           <meta
             name="description"
-            content="Our experienced team of event planners and designers will help you plan and orchestrate your Wedding from start to finish."
+            content="We are committed to crafting your dream wedding into reality. Our attention to detail and seamless execution of Wedding services makes us your number one Wedding resource when planning your special day."
           />
         </Helmet>
 
@@ -36,7 +36,7 @@ export default function WeddingsView() {
           video_cover={data.video_cover}
         />
         <section style={{ textAlign: "center", marginTop: "2rem" }}>
-          <Link to={"/wedding-brochure"}>
+          <Link to={"/wedding-brochure.html"} target={"_blank"}>
             <BrochureBtn>
               Click To View Our Wedding Brochure <i class="bi bi-book"></i>
             </BrochureBtn>

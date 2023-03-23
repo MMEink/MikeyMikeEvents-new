@@ -935,7 +935,7 @@ export const BrochureBtn = styled.div`
       letter-spacing: 4px;
     }
   }
-  @media all and (max-width: 450px) {
+  @media all and (max-width: 700px) {
     font-size: 1rem;
     letter-spacing: 0;
   }

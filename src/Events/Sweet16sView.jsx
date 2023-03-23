@@ -16,10 +16,10 @@ export default function Sweet16sView() {
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>Sweet 16s - Mikey Mike Events</title>
+          <title>Sweet 16 Event Planning in New York & Florida | Mikey Mike Events</title>
           <meta
             name="description"
-            content="Mikey Mike Events specializes in creating unique and memorable experiences, and that is exactly what a Sweet 16 should be."
+            content="Mikey Mike Events specializes in creating unique experiences and providing professional event planning services for your child's Sweet 16 celebration in New York and Miami."
           />
         </Helmet>
 

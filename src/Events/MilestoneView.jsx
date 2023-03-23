@@ -15,10 +15,10 @@ export default function MilestoneView() {
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>Milestone Celebrations - Mikey Mike Events</title>
+          <title>Professional Event PLanning Services | New York & Florida | Mikey Mike Events</title>
           <meta
             name="description"
-            content="We specialize in creating highly personalized milestone events that celebrate, honor, thank and applaud life's most momentous occasions."
+            content="We specialize in creating highly personalized events. Our professional event planners have nearly three decades of experience producing successful events."
           />
         </Helmet>
 

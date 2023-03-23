@@ -9,9 +9,12 @@ export default function FooterView() {
         <div className="footer-left">
           <img src={logo} alt="logo" />
           <p>
-            The Mikey Mike event planning team is a group of experienced and
+            The Mikey Mike Events team is a group of experienced and
             dedicated individuals who make planning your special event an
             exciting process.
+          </p>
+          <p>
+          Since 1994 we have been providing expert event planning services throughout New York and Florida for Weddings, Bar & Bat Mitzvahs, Sweet 16s and milestone celebrations.
           </p>
         </div>
         <div className="footer-right">
@@ -47,7 +50,7 @@ export default function FooterView() {
         </div>
       </Row>
       <Row className="disclaimerSection">
-        <p>© COPYRIGHT 2022 MIKEY MIKE EVENTS - ALL RIGHTS RESERVED</p>
+        <p>© COPYRIGHT 2023 MIKEY MIKE EVENTS - ALL RIGHTS RESERVED</p>
         <div className="poweredby">
           <span>POWERED BY:</span>
           <img src={emax} alt="emax" width={130} />

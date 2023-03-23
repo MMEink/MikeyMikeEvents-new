@@ -10,17 +10,17 @@ import "swiper/css/effect-fade";
 
 export default function ContactForm() {
   const imgSlider = [
-    "./images/contact-page/static1.jpg",
-    "./images/contact-page/static2.jpg",
-    "./images/contact-page/static3.jpg",
-    "./images/contact-page/static4.jpg",
-    "./images/contact-page/static5.jpg",
+    "./images/contact-page/contact-1.jpg",
+    "./images/contact-page/contact-2.jpg",
+    "./images/contact-page/contact-3.jpg",
+    "./images/contact-page/contact-4.jpg",
+    "./images/contact-page/contact-5.jpg",
   ];
   return (
     <div id="contact" className="formContainer">
       <Form
         action="https://crm.zoho.com/crm/WebForm"
-        name="WebForm1783950000105979042"
+        name="WebForm1783950000110169068"
         method="POST"
         id="crmWebToEntityForm"
         className="zcwf_lblLeft crmWebToEntityForm"
@@ -37,7 +37,7 @@ export default function ContactForm() {
           type="text"
           style={{ display: "none" }}
           name="xmIwtLD"
-          value="bdf616f942dbf09d525ab87f94005707c9845f7b905b5d7ca9f19aa700272819"
+          value="bdf616f942dbf09d525ab87f94005707bf0901f9c0dd86153ac43d13705c6d63"
           readOnly
         ></input>
         <input
@@ -51,10 +51,10 @@ export default function ContactForm() {
           type="text"
           style={{ display: "none" }}
           name="returnURL"
-          value="https&#x3a;&#x2f;&#x2f;emaxinteractive.com&#x2f;thankyou"
+          value="https&#x3a;&#x2f;&#x2f;mikeymikeevents.com&#x2f;thankyou"
           readOnly
         ></input>
-        <h3 className="zcwf_title formTitleContainer">Contact Form</h3>
+        <h3 className="zcwf_title formTitleContainer">Send Us a Message!</h3>
         <Form.Group className="mb-3 zcwf_row" controlId="NAME">
           <Form.Label className="zcwf_col_lab">
             First Name <span className="require">*</span>
@@ -81,16 +81,6 @@ export default function ContactForm() {
           />
           <div className="zcwf_col_help"></div>
         </Form.Group>
-        <Form.Group className="mb-3 zcwf_row" controlId="COBJ3CF3">
-          <Form.Label className="zcwf_col_lab">Company</Form.Label>
-          <Form.Control
-            type="text"
-            className="zcwf_col_fld"
-            name="COBJ3CF3"
-            maxLength={250}
-          />
-          <div className="zcwf_col_help"></div>
-        </Form.Group>
         <Form.Group className="mb-3 zcwf_row" controlId="Email">
           <Form.Label className="zcwf_col_lab">
             Email <span className="require">*</span>
@@ -111,6 +101,16 @@ export default function ContactForm() {
             type="tel"
             className="zcwf_col_fld"
             name="COBJ3CF2"
+            maxLength={250}
+          />
+          <div className="zcwf_col_help"></div>
+        </Form.Group>
+        <Form.Group className="mb-3 zcwf_row" controlId="COBJ3CF7">
+          <Form.Label className="zcwf_col_lab">Event Type</Form.Label>
+          <Form.Control
+            type="tel"
+            className="zcwf_col_fld"
+            name="COBJ3CF7"
             maxLength={250}
           />
           <div className="zcwf_col_help"></div>
@@ -155,7 +155,7 @@ export default function ContactForm() {
             className="zcwf_col_fld"
             name="COBJ3CF8"
             maxLength={250}
-            value="Mikey&#x20;Mike&#x20;Events&#x20;Splash"
+            value="Mikey&#x20;Mike&#x20;Events&#x20;Contact&#x20;Form"
             readOnly
           />
           <div className="zcwf_col_help"></div>
@@ -171,11 +171,18 @@ export default function ContactForm() {
         </Button>
       </Form>
       <div className="contactInfo">
-        <h3>Contacts</h3>
+        <h3>Our Locations</h3>
         <div className="xsmallText smallBold address">
+          <span><u>NEW YORK</u></span><br />
           CORPORATE HEADQUARTERS <br />
           140 Florida Street <br />
-          Farmingdale NY <br />
+          Farmingdale, NY 11780<br />
+          (631) 777-2244
+        </div>
+        <div className="xsmallText smallBold address">
+          <span><u>FLORIDA</u></span><br />
+          1904 S Ocean Dr <br />
+          Hallandale Beach, FL 33009 <br />
           (877) 885-0705
         </div>
 
