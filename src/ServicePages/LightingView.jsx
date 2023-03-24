@@ -16,7 +16,7 @@ export default function LightingView() {
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>Lighting - Mikey Mike Events</title>
+          <title>Event Lighting Services | New York & South Florida | Mikey Mike Events</title>
           <meta
             name="description"
             content="Our team of lighting designers will set the mood and ambiance for your event by guiding you through our selection of lighting services."

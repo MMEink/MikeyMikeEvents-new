@@ -17,10 +17,10 @@ export default function LoungeDecorView() {
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>Lounge Decor & Event Rentals - Mikey Mike Events</title>
+          <title>Lounge Decor & Event Rentals | New York & South Florida | Mikey Mike Events</title>
           <meta
             name="description"
-            content="Get the best results from your email campaigns with professional help from E-Max Interactive. Contact us for the top email marketing services for your business."
+            content="We maintain an exclusive inventory of lounge furniture, décor accents and event rentals. We offer a wide selection of modern furnishings, rental bars, illuminated furniture and much more."
           />
         </Helmet>
         <section className="eventHeader">Lounge Decor & Event Rentals</section>

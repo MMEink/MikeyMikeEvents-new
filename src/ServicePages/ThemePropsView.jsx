@@ -16,10 +16,10 @@ export default function ThemePropsView() {
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>Theme Props - Mikey Mike Events</title>
+          <title>Themed Prop Rentals | New York & South Florida | Mikey Mike Events</title>
           <meta
             name="description"
-            content="Get the best results from your email campaigns with professional help from E-Max Interactive. Contact us for the top email marketing services for your business."
+            content="Our inventory of eclectic themed props contains authentic items from celebrated time periods and themed events."
           />
         </Helmet>
         <section className="eventHeader">Theme Props</section>

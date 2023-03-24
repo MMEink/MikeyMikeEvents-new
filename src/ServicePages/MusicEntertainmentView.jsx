@@ -16,10 +16,10 @@ export default function MusicEntertainmentView() {
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>Music Entertainment - Mikey Mike Events</title>
+          <title>Musical Event Entertainment | New York & South Florida | Mikey Mike Events</title>
           <meta
             name="description"
-            content="Our entertainment services are extensive, providing you with access to celebrity talent and speakers and talented musicians and performers."
+            content="Our event entertainment services are extensive, providing you with access to talented musicians, DJs, MCs and performers."
           />
         </Helmet>
         <section className="eventHeader">Musical Entertainment</section>

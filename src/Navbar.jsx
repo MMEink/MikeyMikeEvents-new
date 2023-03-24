@@ -336,7 +336,7 @@ export default function NavbarView() {
                         <li>New York</li>
                       </Link>
                       <Link to={"/contact"}>
-                        <li>Florida</li>
+                        <li>South Florida</li>
                       </Link>
                     </ul>
                   </div>

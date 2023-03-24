@@ -959,9 +959,9 @@ export const services = [
     name: "Extra Entertainment & Novelty",
     article_title: "Extra Entertainment & Novelty SERVICES",
     article_subheader:
-      "We'll exceed your expectations by delivering a custom tailored entertainment program for your event.",
+      "Make your event event more fun with everything from exciting games to photo booths.",
     article:
-      "Our services are extensive, providing you with access to celebrity talent and speakers as well as talented musicians and performers. Let us help you design an event that will exceed your guests' expectations. Whether it is designing an entertainment program to open an event or close one, we will have all the resources you need to deliver an amazing experience for your guests.",
+      "Mikey Mike Events is know for creating memorable and fun experiences! We can help you choose the perfect specialty entertainment that's sure to be a huge hit at your event. Our services provide you with the very best in casino games, photo booth activities, carnival games, arcade and virtual gaming, and much more. Let us help you select the perfect novelty entertainment to spice up our special event.",
     main_img: [
       "./images/services/main-img/novelty/transition1.jpg",
       "./images/services/main-img/novelty/transition2.jpg",

@@ -16,10 +16,10 @@ export default function NoveltyView() {
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>Extra Entertainment & Novelty - Mikey Mike Events</title>
+          <title>Extra Entertainment & Novelty Services | New York & South Florida | Mikey Mike Events</title>
           <meta
             name="description"
-            content="Get the best results from your email campaigns with professional help from E-Max Interactive. Contact us for the top email marketing services for your business."
+            content="Providing the very best in entertianment and novelty fun for your event including games, activities, artists, and photo booths."
           />
         </Helmet>
         <section className="eventHeader">Extra Entertainment & Novelty</section>

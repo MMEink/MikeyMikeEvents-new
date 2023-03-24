@@ -14,10 +14,10 @@ export default function PerformersView() {
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>Performers - Mikey Mike Events</title>
+          <title>Performers | New York & South Florida | Mikey Mike Events</title>
           <meta
             name="description"
-            content="We provide a variety of performers including magicians, circus-style acts, mentalists, tarot card readers, strolling acts, and much more."
+            content="We provide a variety of event performers including magicians, circus-style acts, mentalists, tarot card readers, strolling acts, and much more."
           />
         </Helmet>
         <section className="eventHeader">Performers</section>

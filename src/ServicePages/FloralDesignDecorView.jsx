@@ -17,7 +17,7 @@ export default function FloralDesignDecorView() {
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>Floral Designs - Mikey Mike Events</title>
+          <title>Floral Decor and Event Design | New York & Florida | Mikey Mike Events</title>
           <meta
             name="description"
             content="Our floral arrangements and design components are thoughtfully crafted and styled to accompany your event's look and feel."

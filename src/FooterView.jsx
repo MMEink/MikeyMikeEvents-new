@@ -14,7 +14,7 @@ export default function FooterView() {
             exciting process.
           </p>
           <p>
-          Since 1994 we have been providing expert event planning services throughout New York and Florida for Weddings, Bar & Bat Mitzvahs, Sweet 16s and milestone celebrations.
+          Since 1994 we have been providing expert event planning services throughout New York and South Florida for Weddings, Bar & Bat Mitzvahs, Sweet 16s and milestone celebrations.
           </p>
         </div>
         <div className="footer-right">

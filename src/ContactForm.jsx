@@ -180,7 +180,7 @@ export default function ContactForm() {
           (631) 777-2244
         </div>
         <div className="xsmallText smallBold address">
-          <span><u>FLORIDA</u></span><br />
+          <span><u>SOUTH FLORIDA</u></span><br />
           1904 S Ocean Dr <br />
           Hallandale Beach, FL 33009 <br />
           (877) 885-0705
