@@ -51,7 +51,7 @@ export default function ContactForm() {
           type="text"
           style={{ display: "none" }}
           name="returnURL"
-          value="https&#x3a;&#x2f;&#x2f;mikeymikeevents.com&#x2f;thankyou"
+          value="https&#x3a;&#x2f;&#x2f;www.mikeymikeevents.com&#x2f;thankyou"
           readOnly
         ></input>
         <h3 className="zcwf_title formTitleContainer">Send Us a Message!</h3>

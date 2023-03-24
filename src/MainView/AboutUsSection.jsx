@@ -9,7 +9,7 @@ export default function AboutUsSection() {
   return (
     <Row className="aboutusSection" id="aboutUs">
       <h2>Let's Start Planning Your Event</h2>
-      <h3 class="provideservice">Providing Services throughout New York and South Florida</h3>
+      <h3 class="provideservice">Providing Services Throughout New York and South Florida</h3>
       <section className="flip-section">
         {homepageIntro.map((flip, i) => (
           <div
