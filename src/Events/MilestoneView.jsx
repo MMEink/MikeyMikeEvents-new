@@ -15,7 +15,7 @@ export default function MilestoneView() {
     <HelmetProvider>
       <Row>
         <Helmet>
-          <title>Professional Event PLanning Services | New York & Florida | Mikey Mike Events</title>
+          <title>Professional Event Planning Services | New York & Florida | Mikey Mike Events</title>
           <meta
             name="description"
             content="We specialize in creating highly personalized events. Our professional event planners have nearly three decades of experience producing successful events."
