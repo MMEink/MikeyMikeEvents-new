@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.53f0ce82.css",
-    "main.js": "/static/js/main.761b3b78.js",
+    "main.js": "/static/js/main.f1401180.js",
     "static/js/787.c727b892.chunk.js": "/static/js/787.c727b892.chunk.js",
     "static/media/static6.jpg": "/static/media/static6.6713ffd4238a14fa8906.jpg",
     "static/media/static-lighting-4.jpg": "/static/media/static-lighting-4.348c04d656f1bfc50f45.jpg",
@@ -63,6 +63,7 @@
     "static/media/chrome-capture-2023-2-2.png": "/static/media/chrome-capture-2023-2-2.314a8e64e1fabef21c17.png",
     "static/media/static-rental-6.jpg": "/static/media/static-rental-6.967d26e86b59ac95f1ab.jpg",
     "static/media/static6.JPG": "/static/media/static6.6131943fd6c0b181d1c2.JPG",
+    "static/media/art-gal-del-4.jpg": "/static/media/art-gal-del-4.6ba1fc39d077fe8fed2a.jpg",
     "static/media/static11.jpg": "/static/media/static11.833c2dfdc217cad87d01.jpg",
     "static/media/static-12.jpg": "/static/media/static-12.198b3a5c88919a2e4671.jpg",
     "static/media/static16.jpg": "/static/media/static16.05470cb61b07de5dc976.jpg",
@@ -76,6 +77,7 @@
     "static/media/transition-lighting5.jpg": "/static/media/transition-lighting5.c769a4f04e4430855220.jpg",
     "static/media/static14.jpg": "/static/media/static14.1ef8be37af12f26f4747.jpg",
     "static/media/static29.jpg": "/static/media/static29.4948a601655fbbb35777.jpg",
+    "static/media/art-gal-del-8.jpg": "/static/media/art-gal-del-8.9b9c743e752dc6192ce8.jpg",
     "static/media/static21.jpg": "/static/media/static21.c2bf2c7b902b4e4623bf.jpg",
     "static/media/home-landing-transition4-1.jpg": "/static/media/home-landing-transition4-1.de95e1f372de0e6e72d0.jpg",
     "static/media/static32.jpg": "/static/media/static32.75081de9e27589a85daa.jpg",
@@ -94,6 +96,7 @@
     "static/media/static24.jpg": "/static/media/static24.69c002a0996eba32fcba.jpg",
     "static/media/static20.jpg": "/static/media/static20.d75b97dc14983a9b9023.jpg",
     "static/media/static-rental8.JPG": "/static/media/static-rental8.c3dbb7f9b87f45263e4f.JPG",
+    "static/media/art-gal-del-3.jpg": "/static/media/art-gal-del-3.789e8fb7f60b1204b2a4.jpg",
     "static/media/static26.jpg": "/static/media/static26.783dd8978bb034985e02.jpg",
     "static/media/static-artistry.jpg": "/static/media/static-artistry.27898a236e34496a5415.jpg",
     "static/media/static-rental7.JPG": "/static/media/static-rental7.0caed1b5628d7e6dc0cc.JPG",
@@ -274,11 +277,11 @@
     "static/media/resize-svgrepo-com.svg": "/static/media/resize-svgrepo-com.eb169f896c1d5834f8fb0921efd4fbb5.svg",
     "static/media/video.svg": "/static/media/video.00d30e6424811ec4302be4097ba03466.svg",
     "main.53f0ce82.css.map": "/static/css/main.53f0ce82.css.map",
-    "main.761b3b78.js.map": "/static/js/main.761b3b78.js.map",
+    "main.f1401180.js.map": "/static/js/main.f1401180.js.map",
     "787.c727b892.chunk.js.map": "/static/js/787.c727b892.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53f0ce82.css",
-    "static/js/main.761b3b78.js"
+    "static/js/main.f1401180.js"
   ]
 }

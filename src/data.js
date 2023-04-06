@@ -643,6 +643,9 @@ export const events_swiper = [
           "./images/event-swiper/milestone/Planning/static3.jpg",
           "./images/event-swiper/milestone/Planning/static4.jpg",
           "./images/event-swiper/milestone/Planning/static5.jpg",
+          "./images/event-swiper/milestone/Planning/art-gal-del-3.jpg",
+          "./images/event-swiper/milestone/Planning/art-gal-del-4.jpg",
+          "./images/event-swiper/milestone/Planning/art-gal-del-8.jpg",
         ],
       },
       {
